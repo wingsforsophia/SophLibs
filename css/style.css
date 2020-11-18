@@ -30,8 +30,12 @@ html {
   }
 
   .input {
-    margin: 0;
     display: inline;
-    
-
   }
+
+  .form {
+    display: inline;
+      }
+
+  
+      
