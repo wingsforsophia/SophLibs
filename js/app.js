@@ -8,30 +8,35 @@
 
 /*------------------------ Cached Element References ------------------------*/
 const printHere = document.getElementById('print-here')
-
-
+const getLibButton = document.getElementById('getLib')
+const forms = document.querySelector('.forms')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-
+getLibButton.addEventListener('click', getLib)
 
 /*-------------------------------- Functions --------------------------------*/
 
 
-function myFunction() {
-    var x = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = x;
-    const form = document.querySelector('.form')
-    form.setAttribute("style", "display: none");
+function  getLib() {
+    let l1ProperNoun1 = document.getElementById("l1-properNoun1").value
 
+
+
+    
+    forms.setAttribute("style", "display: none")
+    getLibButton.setAttribute("style", "display: none")
+
+
+    printHere.innerHTML = `${l1ProperNoun1}, who has broken more than 10 Guinness records to promote STEM education, said his recent experiences with mouth-catching records, including one for using his mouth to bounce a table tennis ball off a wall, inspired him to try to set the record for most candy-coated corn caught in the mouth by an individual in one minute (self-thrown). He caught 50 sweet little kernels. `
 
   }
 
 
 
+  
+    // let l1Number1 = document.getElementById("l1-Number1").value
+    // console.log(l1Number1)
 
 
-printHere.innerHTML = `<div class="form form-disappear">
-<input type="text" id="myText" placeholder="Person's name">
-<button onclick="myFunction()">Enter</button>
-</div>   <p id="demo" class="input"></p>, who has broken more than 150 Guinness records to promote STEM education, said his recent experiences with mouth-catching records, including one for using his mouth to bounce a table tennis ball off a wall, inspired him to try to set the record for most candy-coated corn caught in the mouth by an individual in one minute (self-thrown). He caught 50 sweet little kernels. `
+
