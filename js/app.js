@@ -16,9 +16,9 @@ getLibButton.addEventListener('click', getLib1)
 
 
 function  getLib1() {
-    let l1ProperNoun1 = document.getElementById("l1-properNoun1").value
-    let l1Number1 = document.getElementById("l1-number1").value
-    let l1FourLetterWord = document.getElementById('l1-fourLetterWord').value.toUpperCase()
+    let l1properNoun1 = document.getElementById("l1-properNoun1").value
+    let l1number1 = document.getElementById("l1-number1").value
+    let l1fourLetterWord = document.getElementById('l1-fourLetterWord').value.toUpperCase()
     let l1identifier1 = document.getElementById('l1-identifier1').value
     let l1bodyPart1 = document.getElementById('l1-bodyPart1').value.toLowerCase()
     let l1identifier2 = document.getElementById('l1-identifier2').value
@@ -42,7 +42,7 @@ function  getLib1() {
     
 
 
-    printHere.innerHTML = `${capitalizeFirstLetter(l1ProperNoun1)}, who has broken more than ${l1Number1} Guinness records to promote ${l1FourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown. ${l1identifier4} caught ${l1number3} sweet little kernels. `
+    printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown. ${l1identifier4} caught ${l1number3} ${l1food1}s.`
 
   }
 
