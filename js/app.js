@@ -28,8 +28,7 @@ function  getLib1() {
     let l1food1 = document.getElementById('l1-food1').value.toLowerCase()
     let l1bodyPart3 = document.getElementById('l1-bodyPart3').value.toLowerCase()
     let l1number2 = document.getElementById('l1-number2').value
-    let l1identifier4 = document.getElementById('l1-identifier4').value
-    let l1number3 = document.getElementById('l1-number3').value
+   
 
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
@@ -42,7 +41,7 @@ function  getLib1() {
     
 
 
-    printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown. ${l1identifier4} caught ${l1number3} ${l1food1}s.`
+    printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown.`
 
   }
 
