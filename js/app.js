@@ -20,13 +20,13 @@ function  getLib1() {
     let l1Number1 = document.getElementById("l1-number1").value
     let l1FourLetterWord = document.getElementById('l1-fourLetterWord').value.toUpperCase()
     let l1identifier1 = document.getElementById('l1-identifier1').value
-    let l1bodyPart1 = document.getElementById('l1-bodyPart1').value
+    let l1bodyPart1 = document.getElementById('l1-bodyPart1').value.toLowerCase()
     let l1identifier2 = document.getElementById('l1-identifier2').value
-    let l1bodyPart2 = document.getElementById('l1-bodyPart2').value
+    let l1bodyPart2 = document.getElementById('l1-bodyPart2').value.toLowerCase()
     let l1sportball1 = document.getElementById('l1-sportball1').value
     let l1identifier3 = document.getElementById('l1-identifier3').value
-    let l1food1 = document.getElementById('l1-food1').value
-    let l1bodyPart3 = document.getElementById('l1-bodyPart3').value
+    let l1food1 = document.getElementById('l1-food1').value.toLowerCase()
+    let l1bodyPart3 = document.getElementById('l1-bodyPart3').value.toLowerCase()
     let l1number2 = document.getElementById('l1-number2').value
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
