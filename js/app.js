@@ -3,7 +3,7 @@
 
 
 /*------------------------ Cached Element References ------------------------*/
-const printHere = document.getElementById('print-here')
+const l1printHere = document.getElementById('l1-print-here')
 const getLib1Button = document.getElementById('getLib1')
 const forms = document.querySelectorAll('.forms')
 const nextButton1 = document.getElementById('nextLib1')
@@ -40,7 +40,7 @@ function  getLib1() {
     
 
 
-    printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
+    l1printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
 
 
 
