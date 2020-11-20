@@ -1,17 +1,13 @@
-/*---------------------------- Variables (state) ----------------------------*/
-
-
 
 /*------------------------ Cached Element References ------------------------*/
 const l1printHere = document.getElementById('l1-print-here')
 const getLib1Button = document.getElementById('getLib1')
-const forms = document.querySelectorAll('.forms')
 const nextButton1 = document.getElementById('nextLib1')
-
+const forms = document.querySelectorAll('.forms')
 /*----------------------------- Event Listeners -----------------------------*/
 
 getLib1Button.addEventListener('click', getLib1)
-nextButton1.addEventListener('click', ()=> console.log('button works'))
+nextButton1.addEventListener('click', nextLib1)
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -46,7 +42,13 @@ function  getLib1() {
 
 
 
+function nextLib1(){
 
+let firstLib = document.getElementById('firstLib')
+firstLib.setAttribute('style', 'display: none')
+nextButton1.setAttribute('style', 'display: none')
+
+}
 
  
 
