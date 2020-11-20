@@ -33,10 +33,16 @@ function  getLib1() {
     getLibButton.setAttribute("style", "display: none")
 
 
-    printHere.innerHTML = `${l1ProperNoun1}, who has broken more than ${l1Number1} Guinness records to promote ${l1FourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown. He caught 50 sweet little kernels. `
+    function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+    
+
+
+    printHere.innerHTML = `${capitalizeFirstLetter(l1ProperNoun1)}, who has broken more than ${l1Number1} Guinness records to promote ${l1FourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart2} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart3} by an individual in ${l1number2} minute(s), self-thrown. He caught 50 sweet little kernels. `
 
   }
 
 
-
+ 
 
