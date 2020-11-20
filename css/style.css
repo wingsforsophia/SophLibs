@@ -40,3 +40,20 @@ button {
 .l2 {
   display: none;
 }
+
+
+
+/* beginning of iphone 12 media query */
+/* 2532x1170 pixels at 460ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+
+      body {
+        background-color: red;
+      }
+
+
+     }
+     /* end of iphone 12 media query */
