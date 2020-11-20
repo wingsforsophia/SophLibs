@@ -27,6 +27,8 @@ function  getLib1() {
     let l1bodyPart1 = document.getElementById('l1-bodyPart1').value
     let l1identifier2 = document.getElementById('l1-identifier1').value
     let l1bodyPart2 = document.getElementById('l1-bodyPart2').value
+    
+
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
     getLibButton.setAttribute("style", "display: none")
