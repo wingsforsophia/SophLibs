@@ -6,11 +6,12 @@
 const printHere = document.getElementById('print-here')
 const getLib1Button = document.getElementById('getLib1')
 const forms = document.querySelectorAll('.forms')
+const nextButton1 = document.getElementById('nextLib1')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
 getLib1Button.addEventListener('click', getLib1)
-
+nextButton1.addEventListener('click', ()=> console.log('button works'))
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -31,7 +32,7 @@ function  getLib1() {
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
     getLib1Button.setAttribute("style", "display: none")
-
+    nextButton1.setAttribute('style', 'display: grid')
 
     function capitalizeFirstLetter(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
