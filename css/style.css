@@ -30,6 +30,10 @@ body {
   font-size: 40px;
   }
 
+button {
+  width: 7rem;
+}  
+
 .forms {
   font-size: 15px;
 }
