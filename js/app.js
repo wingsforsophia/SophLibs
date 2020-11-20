@@ -4,12 +4,12 @@
 
 /*------------------------ Cached Element References ------------------------*/
 const printHere = document.getElementById('print-here')
-const getLibButton = document.getElementById('getLib')
+const getLib1Button = document.getElementById('getLib1')
 const forms = document.querySelectorAll('.forms')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-getLibButton.addEventListener('click', getLib1)
+getLib1Button.addEventListener('click', getLib1)
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -30,7 +30,7 @@ function  getLib1() {
 
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
-    getLibButton.setAttribute("style", "display: none")
+    getLib1Button.setAttribute("style", "display: none")
 
 
     function capitalizeFirstLetter(string) {
@@ -40,6 +40,10 @@ function  getLib1() {
 
 
     printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
+
+
+
+
 
   }
 
