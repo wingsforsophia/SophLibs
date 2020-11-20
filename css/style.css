@@ -43,17 +43,13 @@ button {
 
 
 
-/* beginning of iphone 12 media query */
-/* 2532x1170 pixels at 460ppi */
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) {
-
-      body {
-        background-color: red;
-      }
 
 
-     }
-     /* end of iphone 12 media query */
+     /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  body {
+    background-color: red;
+  }
+
+  }
