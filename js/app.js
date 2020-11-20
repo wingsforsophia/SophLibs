@@ -22,7 +22,7 @@ getLibButton.addEventListener('click', getLib1)
 function  getLib1() {
     let l1ProperNoun1 = document.getElementById("l1-properNoun1").value
     let l1Number1 = document.getElementById("l1-number1").value
-
+    let l1FourLetterWord = document.getElementById('l1-fourLetterWord').value.toUpperCase()
 
 
 
@@ -30,7 +30,7 @@ function  getLib1() {
     getLibButton.setAttribute("style", "display: none")
 
 
-    printHere.innerHTML = `${l1ProperNoun1}, who has broken more than ${l1Number1} Guinness records to promote STEM education, said his recent experiences with mouth-catching records, including one for using his mouth to bounce a table tennis ball off a wall, inspired him to try to set the record for most candy-coated corn caught in the mouth by an individual in one minute (self-thrown). He caught 50 sweet little kernels. `
+    printHere.innerHTML = `${l1ProperNoun1}, who has broken more than ${l1Number1} Guinness records to promote ${l1FourLetterWord} education, said his recent experiences with mouth-catching records, including one for using his mouth to bounce a table tennis ball off a wall, inspired him to try to set the record for most candy-coated corn caught in the mouth by an individual in one minute (self-thrown). He caught 50 sweet little kernels. `
 
   }
 
