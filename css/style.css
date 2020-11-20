@@ -19,6 +19,7 @@ html {
 
 body {
   background-color: rgb(194, 175, 194);
+
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -29,6 +30,6 @@ body {
   font-size: 40px;
   }
 
-.forms {
-  background-color: red;
-}
+/* .forms {
+  text-align: center;
+} */

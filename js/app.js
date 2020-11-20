@@ -10,24 +10,23 @@
 const printHere = document.getElementById('print-here')
 const getLibButton = document.getElementById('getLib')
 const forms = document.querySelectorAll('.forms')
-const getNum = document.getElementById('getNum')
+
 /*----------------------------- Event Listeners -----------------------------*/
 
-getLibButton.addEventListener('click', getLib)
+getLibButton.addEventListener('click', getLib1)
 
 
 /*-------------------------------- Functions --------------------------------*/
 
 
-function  getLib() {
+function  getLib1() {
     let l1ProperNoun1 = document.getElementById("l1-properNoun1").value
-
     let l1Number1 = document.getElementById("l1-number1").value
-   
+
+
+
 
     forms.forEach(form => form = form.setAttribute("style", "display: none"))
-
-
     getLibButton.setAttribute("style", "display: none")
 
 
@@ -37,4 +36,3 @@ function  getLib() {
 
 
 
-console.log(forms)
