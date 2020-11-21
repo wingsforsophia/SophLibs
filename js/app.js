@@ -43,6 +43,12 @@ lib2Start.addEventListener('click', ()=>{
     if (lib2.style.display === "none") {
     lib2.style.display = "block"
     getLib2.style.display = "block"
+    lib1.style.display = "none"
+    lib3.style.display = "none"
+    getLib1.style.display = "none"
+    getLib3.style.display = "none"
+
+
 
   } else {
     lib2.style.display = "none";
@@ -54,6 +60,14 @@ lib3Start.addEventListener('click', ()=>{
    if (lib3.style.display === "none") {
     lib3.style.display = "block"
     getLib3.style.display = "block"
+    lib2.style.display = "none"
+    lib1.style.display = "none"
+    getLib2.style.display = "none"
+    getLib1.style.display = "none"
+
+
+
+
   } else {
     lib3.style.display = "none";
   }
