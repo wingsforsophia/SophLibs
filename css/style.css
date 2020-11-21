@@ -49,6 +49,8 @@ button {
 #buttonBar {
   padding: 10px;
   margin: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 #firstLib, #secondLib, #thirdLib {
   font-size: 20px;

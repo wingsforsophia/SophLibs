@@ -7,7 +7,6 @@ const forms3 = document.querySelectorAll('.forms3')
 const lib1Start = document.getElementById('lib1')
 const lib2Start = document.getElementById('lib2')
 const lib3Start = document.getElementById('lib3')
-const lib1Forms = document.getElementById("firstLib")
 const getLib1 = document.getElementById('getLib1')
 const getLib2 = document.getElementById('getLib2')
 const getLib3 = document.getElementById('getLib3')
@@ -49,8 +48,8 @@ lib3Start.addEventListener('click', ()=>{
    if (lib3.style.display === "none") {
     lib3.style.display = "block"
     getLib3.style.display = "block"
-    lib2.style.display = "none"
     lib1.style.display = "none"
+    lib2.style.display = "none"
     getLib2.style.display = "none"
     getLib1.style.display = "none"
 
@@ -75,31 +74,7 @@ getLib3.addEventListener('click', ()=>{
 // reset button needs a lot of work
 
 reset.addEventListener('click', ()=>{
-
   location = location
-
-
-  // if (lib1.style.display === "block") {
-  //   lib1.style.display = "none"
-  // } 
-  // if (lib2.style.display === "block"){
-  //   lib2.style.display = "none"
-  // }
-  // if (lib3.style.display === "block"){
-  //   lib3.style.display = "none"
-  // }
-
-//  document.getElementById("l1-properNoun1").innerText = ""
-//  document.getElementById("l1-number1").innerText = ""
-//  document.getElementById('l1-fourLetterWord').innerText = ""
-//  document.getElementById('l1-identifier1').innerText = ""
-//  document.getElementById('l1-bodyPart1').innerText = ""
-//  document.getElementById('l1-identifier2').innerText = ""
-//  document.getElementById('l1-sportball1').innerText = ""
-//  document.getElementById('l1-identifier3').innerText = ""
-//  document.getElementById('l1-food1').innerText = ""
-//  document.getElementById('l1-number2').innerText = ""
-
 })
 
 
@@ -154,7 +129,7 @@ let l1number2 = document.getElementById('l1-number2').value
 
 
 
-l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by ${l2place1} consisting mainly of a ${l2thing1} store — chooses its mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the ${l2animal1} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${l2name1}’s campaign for mayor raised $6,165 on an online fundraising page.`
+l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by ${l2place1} consisting mainly of a ${l2thing1} store — chooses its mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${l2name1}’s campaign for mayor raised $6,165 on an online fundraising page.`
 
   }
 // end rednerlib2()
