@@ -46,7 +46,10 @@ getLib3.addEventListener('click', ()=>{
   console.log("works 3")
 })
 reset.addEventListener('click', ()=>{
-  console.log("reset")
+  if (lib1.style.display === "block") {
+    lib1.style.display = "none";
+  } 
+
 })
 
 
