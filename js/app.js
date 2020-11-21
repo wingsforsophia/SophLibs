@@ -42,6 +42,11 @@ lib2Start.addEventListener('click', ()=>{
 
 lib3Start.addEventListener('click', ()=>{
   console.log("this works3")
+  if (lib3.style.display === "none") {
+    lib3.style.display = "block";
+  } else {
+    lib3.style.display = "none";
+  }
 })
 
 getLib1.addEventListener('click', ()=>{
@@ -54,6 +59,7 @@ getLib2.addEventListener('click', ()=>{
 })
 getLib3.addEventListener('click', ()=>{
   console.log("works 3")
+  renderLib3()
 })
 
 
@@ -65,6 +71,9 @@ reset.addEventListener('click', ()=>{
   } 
   if (lib2.style.display === "block"){
     lib2.style.display = "none"
+  }
+  if (lib3.style.display === "block"){
+    lib3.style.display = "none"
   }
 
 //  document.getElementById("l1-properNoun1").innerText = ""
@@ -136,7 +145,7 @@ l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-d
 // begin renderlib3()
 
 function renderLib3() {
-
+  let l3thing1 = document.getElementById('l3-thing1').value
 
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
@@ -146,7 +155,7 @@ function renderLib3() {
   // }
 
 
-  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning drugs and drug pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription drugs for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of Health and Human Services, Alex Azar, an administrator of Center for Medicare, Medicaid Services, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of Health and Human Services, Alex Azar, an administrator of Center for Medicare, Medicaid Services, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
 
 
 
@@ -158,13 +167,6 @@ function renderLib3() {
 
 }
 
-
-
-
-
-
-
-
 // end renderLib3()
 
 
@@ -172,15 +174,4 @@ function renderLib3() {
 
 
 
-
-
-// function nextLib1(){
-
-// let firstLib = document.getElementById('firstLib')
-// firstLib.setAttribute('style', 'display: none')
-// nextButton1.setAttribute('style', 'display: none')
-
-// }
-
- 
 
