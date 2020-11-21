@@ -36,6 +36,7 @@ button {
   border-radius: 20px;
   justify-content: center;
   align-items: center;
+  outline: none;
 
 }  
 
@@ -49,11 +50,12 @@ button {
   margin: 10px;
   display: flex;
   justify-content: space-around;
-}
+  }
 
 #firstLib, #secondLib, #thirdLib {
   font-size: 20px;
   margin: 0 auto;
+  width: 50%;
 }
 #bottomButtons {
   
