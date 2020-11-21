@@ -31,12 +31,7 @@ lib1Start.addEventListener('click', ()=>{
     lib3.style.display = "none"
     getLib2.style.display = "none"
     getLib3.style.display = "none"
-
-
-
-  } else {
-    lib1.style.display = "none";
-  }
+  } 
 })
 
 lib2Start.addEventListener('click', ()=>{
@@ -47,13 +42,7 @@ lib2Start.addEventListener('click', ()=>{
     lib3.style.display = "none"
     getLib1.style.display = "none"
     getLib3.style.display = "none"
-
-
-
-  } else {
-    lib2.style.display = "none";
-  }
-
+  } 
 })
 
 lib3Start.addEventListener('click', ()=>{
@@ -65,12 +54,7 @@ lib3Start.addEventListener('click', ()=>{
     getLib2.style.display = "none"
     getLib1.style.display = "none"
 
-
-
-
-  } else {
-    lib3.style.display = "none";
-  }
+  } 
 })
 
 
