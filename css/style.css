@@ -37,6 +37,9 @@ body {
 button {
   width: 10rem;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  
 }  
 
 .forms {
@@ -44,8 +47,7 @@ button {
 }
 
 #buttonBar {
-  /* display: flex;
-  justify-content: space-around; */
+
   padding: 10px;
   margin: 10px;
 }
@@ -53,8 +55,7 @@ button {
   font-size: 20px;
 }
 #bottomButtons {
-  /* display: flex;
-  justify-content: space-around; */
+  
   padding: 10px;
   margin: 10px;
 }
