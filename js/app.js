@@ -36,8 +36,7 @@ lib1Start.addEventListener('click', ()=>{
 })
 
 lib2Start.addEventListener('click', ()=>{
-  console.log("this works2")
-  if (lib2.style.display === "none") {
+    if (lib2.style.display === "none") {
     lib2.style.display = "block";
   } else {
     lib2.style.display = "none";
@@ -62,8 +61,11 @@ getLib3.addEventListener('click', ()=>{
 })
 reset.addEventListener('click', ()=>{
   if (lib1.style.display === "block") {
-    lib1.style.display = "none";
+    lib1.style.display = "none"
   } 
+  if (lib2.style.display === "block"){
+    lib2.style.display = "none"
+  }
 
 //  document.getElementById("l1-properNoun1").innerText = ""
 //  document.getElementById("l1-number1").innerText = ""
@@ -119,7 +121,7 @@ let l1number2 = document.getElementById('l1-number2').value
 
   forms2.forEach(form => form = form.setAttribute("style", "display: none"))
 
-  
+
     function capitalizeFirstLetter(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
