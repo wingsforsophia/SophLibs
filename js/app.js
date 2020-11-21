@@ -3,7 +3,7 @@
 // const l1printHere = document.getElementById('l1-print-here')
 // const getLib1Button = document.getElementById('getLib1')
 // const nextButton1 = document.getElementById('nextLib1')
-const forms = document.querySelectorAll('.forms')
+const forms1 = document.querySelectorAll('.forms1')
 const lib1Start = document.getElementById('lib1')
 const lib2Start = document.getElementById('lib2')
 const lib3Start = document.getElementById('lib3')
@@ -11,6 +11,7 @@ const lib1Forms = document.getElementById("firstLib")
 const getLib1 = document.getElementById('getLib1')
 const getLib2 = document.getElementById('getLib2')
 const getLib3 = document.getElementById('getLib3')
+const reset = document.getElementById('reset')
 const lib1 = document.getElementById('firstLib')
 
 
@@ -44,6 +45,11 @@ getLib2.addEventListener('click', ()=>{
 getLib3.addEventListener('click', ()=>{
   console.log("works 3")
 })
+reset.addEventListener('click', ()=>{
+  console.log("reset")
+})
+
+
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -64,8 +70,8 @@ function  getLib() {
    
 
 
-    forms.forEach(form => form = form.setAttribute("style", "display: none"))
-    getLib1Button.setAttribute("style", "display: none")
+    forms1.forEach(form => form = form.setAttribute("style", "display: none"))
+    // getLib1Button.setAttribute("style", "display: none")
     // nextButton1.setAttribute('style', 'display: grid')
 
     function capitalizeFirstLetter(string) {
