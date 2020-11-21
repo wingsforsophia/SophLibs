@@ -1,6 +1,6 @@
 
 /*------------------------ Cached Element References ------------------------*/
-
+const reset = document.getElementById('reset')
 // const getLib1Button = document.getElementById('getLib1')
 // const nextButton1 = document.getElementById('nextLib1')
 const forms1 = document.querySelectorAll('.forms1')
@@ -11,8 +11,9 @@ const lib1Forms = document.getElementById("firstLib")
 const getLib1 = document.getElementById('getLib1')
 const getLib2 = document.getElementById('getLib2')
 const getLib3 = document.getElementById('getLib3')
-const reset = document.getElementById('reset')
 const lib1 = document.getElementById('firstLib')
+const lib2 = document.getElementById('secondLib')
+const lib3 = document.getElementById('thirdLib')
 const l1printHere = document.getElementById('l1-print-here')
 const l2printHere = document.getElementById('l2-print-here')
 const l3printHere = document.getElementById('l3-print-here')
@@ -34,7 +35,12 @@ lib1Start.addEventListener('click', ()=>{
 
 lib2Start.addEventListener('click', ()=>{
   console.log("this works2")
-  
+  if (lib2.style.display === "none") {
+    lib2.style.display = "block";
+  } else {
+    lib2.style.display = "none";
+  }
+
 })
 
 lib3Start.addEventListener('click', ()=>{
