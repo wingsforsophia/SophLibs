@@ -41,15 +41,16 @@ button {
 
 }  
 
-.forms {
+.forms1, .forms2, .forms3 {
   font-size: 15px;
+  line-height: 30px;
 }
 
 #buttonBar {
   padding: 10px;
   margin: 10px;
 }
-#firstLib {
+#firstLib, #secondLib, #thirdLib {
   font-size: 20px;
 }
 #bottomButtons {
