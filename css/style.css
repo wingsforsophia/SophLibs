@@ -58,6 +58,18 @@ input[type=number]:focus {
   background-color: lightblue;
   outline: none;
 }
+select {
+  width: 50%;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+}
+select:focus {
+  background-color: lightblue;
+  outline: none;
+}
 
 #buttonBar {
   padding: 10px;
