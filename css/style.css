@@ -52,11 +52,12 @@ button {
   display: flex;
   justify-content: space-around;
 }
+
 #firstLib, #secondLib, #thirdLib {
   font-size: 20px;
+  margin: 0 auto;
 }
 #bottomButtons {
-  
   padding: 10px;
   margin: 10px;
 }
@@ -66,7 +67,10 @@ button {
   background-color: red;
   padding: 10px;
   margin: 10px;
-  
+}
+
+#getLib1, #getLib2, #getLib3 {
+  margin: 0 auto;
 }
 
 
