@@ -141,6 +141,7 @@ function renderLib3() {
   let l3chore1 = document.getElementById('l3-chore1').value
   let l3name1 = document.getElementById('l3-name1').value
   let l3dislike1 = document.getElementById('l3-dislike1').value
+  let l3blueCheese1 = document.getElementById('l3-blueCheese1').value
   let l3name2 = document.getElementById('l3-name2').value
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
@@ -159,7 +160,7 @@ function uppercase(str) {
   return newarray1.join(' ');
 }
 
-  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${capitalizeFirstLetter(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our ${l3blueCheese1} seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${capitalizeFirstLetter(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
 
 }
 
