@@ -46,6 +46,14 @@ button {
 input {
   width: 100%
 }
+input[type=text]:focus {
+  background-color: lightblue;
+  outline: none;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+  outline: none;
+}
 
 #buttonBar {
   padding: 10px;
