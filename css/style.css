@@ -28,9 +28,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-
+ 
   align-items: center;
   justify-content: center;
   font-size: 40px;
@@ -45,16 +43,10 @@ button {
 }
 
 #buttonBar {
-  grid-area: 1/1/2/4;
+  
   display: flex;
   justify-content: space-around;
 }
-
-
-
-
-
-
 
 
 

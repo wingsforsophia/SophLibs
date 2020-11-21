@@ -18,6 +18,7 @@ const lib3Start = document.getElementById('lib3')
 
 lib1Start.addEventListener('click', ()=>{
   console.log("this works1")
+  myFunction()
 })
 
 lib2Start.addEventListener('click', ()=>{
@@ -30,6 +31,17 @@ lib3Start.addEventListener('click', ()=>{
 
 
 /*-------------------------------- Functions --------------------------------*/
+
+
+function myFunction() {
+  var x = document.getElementById("firstLib");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+
 
 
 // function  getLib1() {
@@ -62,13 +74,13 @@ lib3Start.addEventListener('click', ()=>{
 
 
 
-function nextLib1(){
+// function nextLib1(){
 
-let firstLib = document.getElementById('firstLib')
-firstLib.setAttribute('style', 'display: none')
-nextButton1.setAttribute('style', 'display: none')
+// let firstLib = document.getElementById('firstLib')
+// firstLib.setAttribute('style', 'display: none')
+// nextButton1.setAttribute('style', 'display: none')
 
-}
+// }
 
  
 
