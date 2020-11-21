@@ -146,19 +146,30 @@ function renderLib3() {
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
 
   function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    return string.charAt(0).toUpperCase() + string.slice(1)
   }
 
 
-  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${l3chore1}, ${capitalizeFirstLetter(l3name1)}, and administrator of ${l3dislike1}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+
+
+function uppercase(str) {
+  let array1 = str.split(' ');
+  let newarray1 = [];
+    
+  for(let x = 0; x < array1.length; x++){
+      newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+  }
+  return newarray1.join(' ');
+}
+
+
+
+
+
+  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${capitalizeFirstLetter(l3name1)}, and administrator of ${uppercase(l3dislike1)}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
 
 }
 
 // end renderLib3()
-
-
-
-
-
 
 
