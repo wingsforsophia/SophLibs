@@ -4,10 +4,15 @@ const l1printHere = document.getElementById('l1-print-here')
 const getLib1Button = document.getElementById('getLib1')
 const nextButton1 = document.getElementById('nextLib1')
 const forms = document.querySelectorAll('.forms')
+const guinnessRecords = document.getElementById('')
+
+
 /*----------------------------- Event Listeners -----------------------------*/
 
 getLib1Button.addEventListener('click', getLib1)
 nextButton1.addEventListener('click', nextLib1)
+
+
 
 /*-------------------------------- Functions --------------------------------*/
 

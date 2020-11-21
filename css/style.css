@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box
 }
+/* 
+html, body {
+  height: 100%;
+} */
+
 
 /* The Universal Selector */
 *, /* All elements*/
@@ -19,12 +24,12 @@ html {
 
 body {
   background-color: rgb(194, 175, 194);
-
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  margin: 100px;
   display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 10% 3fr 1fr;
   align-items: center;
   justify-content: center;
   font-size: 40px;
@@ -37,6 +42,16 @@ button {
 .forms {
   font-size: 15px;
 }
+
+#buttonBar {
+  grid-area: 1/1/2/4;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
 
 
 
