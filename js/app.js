@@ -52,6 +52,7 @@ getLib1.addEventListener('click', ()=>{
  console.log('button still works')
 })
 getLib2.addEventListener('click', ()=>{
+  renderLib2()
   console.log("works 2")
 })
 getLib3.addEventListener('click', ()=>{
@@ -110,15 +111,18 @@ let l1number2 = document.getElementById('l1-number2').value
 
   function renderLib2(){
 
+  let l2animal1 = document.getElementById('l2-animal1').value 
 
 
 
 
+    function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
 
 
-
-l2printHere.innerHTML = `Rabbit Hash — a census-designated place by the Ohio River consisting mainly of a general store — chooses its mayors “based on the candidates’ willingness to have their belly scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the Rabbit Hash Historical Society, and locals can “vote” for candidates every four years by donating to the society. Wilbur’s campaign for mayor raised $6,165 on an online fundraising page.
+l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by the Ohio River consisting mainly of a general store — chooses its mayors “based on the candidates’ willingness to have their belly scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the Rabbit Hash Historical Society, and locals can “vote” for candidates every four years by donating to the society. Wilbur’s campaign for mayor raised $6,165 on an online fundraising page.
 
 The first mayor of Rabbit Hash was Goofy Borneman, a dog born of “unknown parentage” who entered office in 1998 when Boone County held a bicentennial celebration and a mayoral race for Rabbit Hash started. Despite an alleged tendency to poach chickens, Goofy won the position with gusto, and Rabbit Hash’s mayorship has been held by canines ever since.` 
 
