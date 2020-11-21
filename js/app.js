@@ -25,7 +25,15 @@ const l3printHere = document.getElementById('l3-print-here')
 
 lib1Start.addEventListener('click', ()=>{
     if (lib1.style.display === "none") {
-    lib1.style.display = "block";
+    lib1.style.display = "block"
+    getLib1.style.display = "block"
+    lib2.style.display = "none"
+    lib3.style.display = "none"
+    getLib2.style.display = "none"
+    getLib3.style.display = "none"
+
+
+
   } else {
     lib1.style.display = "none";
   }
@@ -33,7 +41,9 @@ lib1Start.addEventListener('click', ()=>{
 
 lib2Start.addEventListener('click', ()=>{
     if (lib2.style.display === "none") {
-    lib2.style.display = "block";
+    lib2.style.display = "block"
+    getLib2.style.display = "block"
+
   } else {
     lib2.style.display = "none";
   }
@@ -42,11 +52,16 @@ lib2Start.addEventListener('click', ()=>{
 
 lib3Start.addEventListener('click', ()=>{
    if (lib3.style.display === "none") {
-    lib3.style.display = "block";
+    lib3.style.display = "block"
+    getLib3.style.display = "block"
   } else {
     lib3.style.display = "none";
   }
 })
+
+
+
+// render buttons-------------------------------------
 
 getLib1.addEventListener('click', ()=>{
  renderLib1()
@@ -149,7 +164,7 @@ l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-d
 // begin renderlib3()
 
 function renderLib3() {
-  let l3thing1 = document.getElementById('l3-thing1').value
+  let l3thing1 = document.getElementById('l3-thing1').value.toLowerCase()
   let l3chore1 = document.getElementById('l3-chore1').value
   let l3name1 = document.getElementById('l3-name1').value
   let l3dislike1 = document.getElementById('l3-dislike1').value
