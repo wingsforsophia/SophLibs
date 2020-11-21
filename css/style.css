@@ -37,8 +37,8 @@ body {
 button {
   width: 10rem;
   border-radius: 20px;
-  display: flex;
   justify-content: center;
+  
   
 }  
 
