@@ -4,6 +4,8 @@ const reset = document.getElementById('reset')
 // const getLib1Button = document.getElementById('getLib1')
 // const nextButton1 = document.getElementById('nextLib1')
 const forms1 = document.querySelectorAll('.forms1')
+const forms2 = document.querySelectorAll('.forms2')
+const forms3 = document.querySelectorAll('.forms3')
 const lib1Start = document.getElementById('lib1')
 const lib2Start = document.getElementById('lib2')
 const lib3Start = document.getElementById('lib3')
@@ -115,7 +117,9 @@ let l1number2 = document.getElementById('l1-number2').value
 
 
 
+  forms2.forEach(form => form = form.setAttribute("style", "display: none"))
 
+  
     function capitalizeFirstLetter(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
