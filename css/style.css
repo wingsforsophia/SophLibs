@@ -36,6 +36,7 @@ button {
   justify-content: center;
   align-items: center;
   outline: none;
+  background-color: rgb(142, 199, 187);
 
 }  
 
@@ -43,12 +44,14 @@ button {
   font-size: 15px;
   line-height: 30px;
 }
+
 input {
   width: 100%;
   border-radius: 12px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  
 }
 input[type=text]:focus {
   background-color: lightblue;
@@ -64,7 +67,7 @@ select {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  outline: none;
+  
 }
 select:focus {
   background-color: lightblue;
