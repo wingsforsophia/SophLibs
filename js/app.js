@@ -7,7 +7,7 @@ const forms = document.querySelectorAll('.forms')
 const lib1Start = document.getElementById('lib1')
 const lib2Start = document.getElementById('lib2')
 const lib3Start = document.getElementById('lib3')
-
+const lib1Forms = document.getElementById("firstLib")
 
 
 
@@ -17,8 +17,11 @@ const lib3Start = document.getElementById('lib3')
 // nextButton1.addEventListener('click', nextLib1)
 
 lib1Start.addEventListener('click', ()=>{
-  console.log("this works1")
-  myFunction()
+    if (lib1Forms.style.display === "none") {
+    lib1Forms.style.display = "block";
+  } else {
+    lib1Forms.style.display = "none";
+  }
 })
 
 lib2Start.addEventListener('click', ()=>{
@@ -32,15 +35,6 @@ lib3Start.addEventListener('click', ()=>{
 
 /*-------------------------------- Functions --------------------------------*/
 
-
-function myFunction() {
-  var x = document.getElementById("firstLib");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-} 
 
 
 
