@@ -150,7 +150,10 @@ l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-d
 
 function renderLib3() {
   let l3thing1 = document.getElementById('l3-thing1').value
-
+  let l3chore1 = document.getElementById('l3-chore1').value
+  let l3name1 = document.getElementById('l3-name1').value
+  let l3dislike1 = document.getElementById('l3-dislike1').value
+  let l3name2 = document.getElementById('l3-name2').value
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
 
@@ -159,7 +162,7 @@ function renderLib3() {
   // }
 
 
-  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of Health and Human Services, Alex Azar, an administrator of Center for Medicare, Medicaid Services, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${l3chore1}, ${l3name1}, and administrator of ${l3dislike1}, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
 
 }
 
