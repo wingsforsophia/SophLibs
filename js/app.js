@@ -41,8 +41,7 @@ lib2Start.addEventListener('click', ()=>{
 })
 
 lib3Start.addEventListener('click', ()=>{
-  console.log("this works3")
-  if (lib3.style.display === "none") {
+   if (lib3.style.display === "none") {
     lib3.style.display = "block";
   } else {
     lib3.style.display = "none";
@@ -51,15 +50,12 @@ lib3Start.addEventListener('click', ()=>{
 
 getLib1.addEventListener('click', ()=>{
  renderLib1()
- console.log('button still works')
-})
+ })
 getLib2.addEventListener('click', ()=>{
   renderLib2()
-  console.log("works 2")
-})
+  })
 getLib3.addEventListener('click', ()=>{
-  console.log("works 3")
-  renderLib3()
+    renderLib3()
 })
 
 

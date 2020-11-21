@@ -46,8 +46,19 @@ button {
   display: flex;
   justify-content: space-around;
 }
-
-
+#firstLib {
+  font-size: 20px;
+}
+#bottomButtons {
+  
+  display: flex;
+  justify-content: space-around;
+}
+#reset {
+  display: flex;
+  justify-self: center;
+  background-color: red;
+}
 
 
      /* Smartphones (portrait and landscape) ----------- */
