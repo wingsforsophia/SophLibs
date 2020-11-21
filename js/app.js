@@ -125,6 +125,10 @@ let l1number2 = document.getElementById('l1-number2').value
   function renderLib2(){
 
   let l2animal1 = document.getElementById('l2-animal1').value 
+  let l2place1 = document.getElementById('l2-place1').value 
+  let l2thing1 = document.getElementById('l2-thing1').value 
+  let l2bodyPart1 = document.getElementById('l2-bodyPart1').value 
+  let l2favoriteThing1 = document.getElementById('l2-favoriteThing1')
 
 
 
@@ -137,7 +141,7 @@ let l1number2 = document.getElementById('l1-number2').value
 
 
 
-l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by the Ohio River consisting mainly of a general store — chooses its mayors “based on the candidates’ willingness to have their belly scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the Rabbit Hash Historical Society, and locals can “vote” for candidates every four years by donating to the society. Wilbur’s campaign for mayor raised $6,165 on an online fundraising page.`
+l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by ${l2place1} consisting mainly of a ${l2thing1} store — chooses its mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the ${l2animal1} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. Wilbur’s campaign for mayor raised $6,165 on an online fundraising page.`
 
   }
 // end rednerlib2()
@@ -156,14 +160,6 @@ function renderLib3() {
 
 
   l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of Health and Human Services, Alex Azar, an administrator of Center for Medicare, Medicaid Services, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
-
-
-
-
-
-
-
-
 
 }
 
