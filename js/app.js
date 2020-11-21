@@ -162,7 +162,7 @@ function renderLib3() {
   // }
 
 
-  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${l3chore1}, ${l3name1}, and administrator of ${l3dislike1}, Seema Verma. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+  l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our cherish seniors. We’re pleased to be joined on this occasion by Secretary of ${l3chore1}, ${l3name1}, and administrator of ${l3dislike1}, ${l3name2}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
 
 }
 
