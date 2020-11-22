@@ -37,6 +37,7 @@ button {
   align-items: center;
   outline: none;
   background-color: rgb(142, 199, 187);
+  font-family: 'Architects Daughter', cursive;
 
 }  
 
@@ -86,6 +87,7 @@ select:focus {
 #firstLib, #secondLib, #thirdLib {
   font-size: 20px;
   margin: 0 auto;
+  font-family: 'Architects Daughter', cursive;
 }
 
 #bottomButtons {
@@ -104,7 +106,6 @@ select:focus {
 #getLib1, #getLib2, #getLib3 {
   margin: 0 auto;
   --animate-delay: 3s;
-  /* --animate-repeat: 2; */
 }
 
 #allLibContent {
@@ -124,3 +125,7 @@ select:focus {
   }
 
 }
+
+
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Roboto Condensed', sans-serif; */

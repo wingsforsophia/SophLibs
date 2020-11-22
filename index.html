@@ -1,181 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="js/app.js"></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>SophLibs</title>
 </head>
+
 <body>
     <div id="buttonBar">
-        <button id="lib1" >GUINNESS RECORDS</button>
-        <button id="lib2" >ANIMAL HASH, KY</button>
-        <button id="lib3" >SHIT TRUMP SAID</button>
+        <button id="lib1">GUINNESS RECORDS</button>
+        <button id="lib2">ANIMAL HASH, KY</button>
+        <button id="lib3">SHIT TRUMP SAID</button>
     </div>
-   <div id="allLibContent">
-    <div id="firstLib" class="l1 animate__animated animate__fadeInRight" style="display: none">
-       <div id="firstLib-forms" >
-        <div class="forms1">
-            <input type="text" id="l1-properNoun1" placeholder="Person's name">
-        </div>  
-        <div class="forms1">
-            <input type="number" id="l1-number1" placeholder="Number">
+    <div id="allLibContent">
+        <div id="firstLib" class="l1 animate__animated animate__fadeInRight" style="display: none">
+            <div id="firstLib-forms">
+                <div class="forms1">
+                    <input type="text" id="l1-properNoun1" placeholder="Person's name">
+                </div>
+                <div class="forms1">
+                    <input type="number" id="l1-number1" placeholder="Number">
+                </div>
+                <div class="forms1">
+                    <input type="text" id="l1-fourLetterWord" placeholder="Four-letter word">
+                </div>
+                <div class="forms1 dropdown">
+                    <label for="identifier">Identifier:</label>
+                    <select id="l1-identifier1" name="identifier">
+                        <option value="her">her</option>
+                        <option value="his">his</option>
+                        <option value="their">their</option>
+                    </select>
+                </div>
+                <div class="forms1">
+                    <input type="text" id="l1-bodyPart1" placeholder="Body part">
+                </div>
+
+                <div class="forms1 dropdown">
+                    <label for="identifier">Identifier:</label>
+                    <select id="l1-identifier2" name="identifier">
+                        <option value="her">her</option>
+                        <option value="his">his</option>
+                        <option value="their">their</option>
+                    </select>
+                </div>
+                <div class="forms1 dropdown">
+                    <label for="sportball">Pick a sport:</label>
+                    <select id="l1-sportball1" name="sportball">
+                        <option value="basketball">basketball</option>
+                        <option value="tennis ball">tennis</option>
+                        <option value="bowling ball">bowling</option>
+                        <option value="golf ball">golf</option>
+                        <option value="ping-pong ball">ping-pong</option>
+                        <option value="football">football</option>
+                    </select>
+                </div>
+
+                <div class="forms1 dropdown">
+                    <label for="identifier">Identifier:</label>
+                    <select id="l1-identifier3" name="identifier">
+                        <option value="her">her</option>
+                        <option value="him">him</option>
+                        <option value="them">them</option>
+                    </select>
+                </div>
+
+                <div class="forms1">
+                    <input type="text" id="l1-food1" placeholder="Food, plural">
+                </div>
+
+                <div class="forms1">
+                    <input type="text" id="l1-number2" placeholder="Number">
+                </div>
+            </div>
+            <div id="firstLib-print">
+                <div id="l1-print-here" class='l1'></div>
+            </div>
         </div>
-        <div class="forms1">
-            <input type="text" id="l1-fourLetterWord" placeholder="Four-letter word">
-        </div>  
-        <div class="forms1 dropdown">
-            <label for="identifier">Identifier:</label>
-            <select id="l1-identifier1" name="identifier">
-            <option value="her">her</option>
-            <option value="his">his</option>
-            <option value="their">their</option>
-            </select>
-         </div>
-         <div class="forms1">
-            <input type="text" id="l1-bodyPart1" placeholder="Body part">
-        </div>  
+        <!-- end of first lib html  -->
 
-        <div class="forms1 dropdown">
-            <label for="identifier">Identifier:</label>
-            <select id="l1-identifier2" name="identifier">
-            <option value="her">her</option>
-            <option value="his">his</option>
-            <option value="their">their</option>
-            </select>
+
+
+        <!-- beginning of second lib html -->
+        <!-- FOR COPY/PASTE:    style="display: none" -->
+        <div id="secondLib" class="l2 l1 animate__animated animate__fadeInRight" style="display: none">
+            <div id="secondLib-forms2">
+
+                <!-- forms2 go here -->
+                <div class="forms2">
+                    <input type="text" id="l2-animal1" placeholder="Animal">
+                </div>
+                <div class="forms2">
+                    <p>Where did you spend your 21st birthday:<input type="text" id="l2-place1" placeholder="Be honest">
+                    </p>
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-thing1" placeholder="Your favorite posession">
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-animal2" placeholder="Another animal">
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-bodyPart1" placeholder="Body part of previous animal">
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-adjective1" placeholder="Adjective">
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-favoriteThing1" placeholder="Something you enjoy doing">
+                </div>
+                <div class="forms2">
+                    <input type="text" id="l2-name1" placeholder="A pet's name">
+                </div>
+                <div class="forms2">
+                    <input type="number" id="l2-number1" placeholder="Number">
+                </div>
+
+            </div>
+            <!-- end l2 forms -->
+            <div id="secondLib-print">
+                <div id="l2-print-here" class='l2'></div>
+            </div>
         </div>
-        <div class="forms1 dropdown">
-            <label for="sportball">Pick a sport:</label>
-            <select id="l1-sportball1" name="sportball">
-            <option value="basketball">basketball</option>
-            <option value="tennis ball">tennis</option>
-            <option value="bowling ball">bowling</option>
-            <option value="golf ball">golf</option>
-            <option value="ping-pong ball">ping-pong</option>
-            <option value="football">football</option>
-            </select>
-         </div>
-         
-         <div class="forms1 dropdown">
-            <label for="identifier">Identifier:</label>
-            <select id="l1-identifier3" name="identifier">
-            <option value="her">her</option>
-            <option value="him">him</option>
-            <option value="them">them</option>
-            </select>
+        <!-- end of second lib html -->
+
+        <!-- begin third lib html  -->
+        <!-- FOR COPY/PASTE:    style="display: none" -->
+        <div id="thirdLib" class="l3 l1 animate__animated animate__fadeInRight" style="display: none">
+            <div id="thirdLib-forms3">
+
+                <!-- forms3 go here -->
+                <div class="forms3">
+                    <input type="text" id="l3-thing1" placeholder="Thing, plural">
+                </div>
+                <div class="forms3">
+                    <input type="text" id="l3-chore1" placeholder="Least-favorite chore">
+                </div>
+                <div class="forms3">
+                    <input type="text" id="l3-name1" placeholder="Person's name">
+                </div>
+                <div class="forms3">
+                    <input type="text" id="l3-dislike1" placeholder="Thing you dislike">
+                </div>
+                <div class="forms3">
+                    <p>A word you'd use to describe blue cheese:<input type="text" id="l3-blueCheese1"
+                            placeholder="one word"></p>
+                </div>
+
+
+                <div class="forms3">
+                    <input type="text" id="l3-name2" placeholder="Person's name">
+                </div>
+
+
+            </div>
+            <!-- end l3 forms -->
+            <div id="thirdLib-print">
+                <div id="l3-print-here" class='l3'></div>
+            </div>
+
         </div>
-
-        <div class="forms1">
-            <input type="text" id="l1-food1" placeholder="Food, plural">
-        </div>  
-      
-        <div class="forms1">
-            <input type="text" id="l1-number2" placeholder="Number">
-        </div> 
-      </div>  
-      <div id="firstLib-print">
-        <div id="l1-print-here" class='l1'></div>
-      </div>
-      </div>
-<!-- end of first lib html  -->
-
-
-
-<!-- beginning of second lib html --> 
-<!-- FOR COPY/PASTE:    style="display: none" -->
-<div id="secondLib" class="l2 l1 animate__animated animate__fadeInRight" style="display: none">  
-      <div id="secondLib-forms2">
-
-<!-- forms2 go here -->
-<div class="forms2">
-    <input type="text" id="l2-animal1" placeholder="Animal">
-</div> 
-<div class="forms2">
-    <p>Where did you spend your 21st birthday:<input type="text" id="l2-place1" placeholder="Be honest"></p>
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-thing1" placeholder="Your favorite posession">
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-animal2" placeholder="Another animal">
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-bodyPart1" placeholder="Body part of previous animal">
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-adjective1" placeholder="Adjective">
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-favoriteThing1" placeholder="Something you enjoy doing">
-</div> 
-<div class="forms2">
-    <input type="text" id="l2-name1" placeholder="A pet's name">
-</div> 
-<div class="forms2">
-    <input type="number" id="l2-number1" placeholder="Number">
-</div> 
-
-      </div>
-      <!-- end l2 forms -->
-      <div id="secondLib-print">
-        <div id="l2-print-here" class='l2'></div>
-      </div>
-</div>      
-<!-- end of second lib html -->
-
-<!-- begin third lib html  -->
-<!-- FOR COPY/PASTE:    style="display: none" -->
-<div id="thirdLib" class="l3 l1 animate__animated animate__fadeInRight" style="display: none" >  
-    <div id="thirdLib-forms3">
-
-    <!-- forms3 go here -->
-    <div class="forms3">
-        <input type="text" id="l3-thing1" placeholder="Thing, plural">
-    </div> 
-    <div class="forms3">
-        <input type="text" id="l3-chore1" placeholder="Least-favorite chore">
-    </div> 
-    <div class="forms3">
-        <input type="text" id="l3-name1" placeholder="Person's name">
-    </div> 
-    <div class="forms3">
-        <input type="text" id="l3-dislike1" placeholder="Thing you dislike">
-    </div>
-    <div class="forms3">
-       <p>A word you'd use to describe blue cheese:<input type="text" id="l3-blueCheese1" placeholder="one word"></p> 
-    </div> 
-
-
-    <div class="forms3">
-        <input type="text" id="l3-name2" placeholder="Person's name">
-    </div> 
-
-    
-    </div>
-    <!-- end l3 forms -->
-    <div id="thirdLib-print" >
-        <div id="l3-print-here" class='l3'></div>
+        <!-- end of third lib html -->
     </div>
 
-</div>
-<!-- end of third lib html -->
-</div> 
 
-
-<!-- FOR COPY/PASTE:    style="display: none" -->
-      <div id="bottomButtons">
-        <button id="getLib1" class="l1 animate__animated animate__bounce animate__delay-2s" style="display: none">GET FIRST LIB</button>
-        <button id="getLib2" class="l2 animate__animated animate__bounce animate__delay-2s" style="display: none">GET SECOND LIB</button>
-        <button id="getLib3" class="l3 animate__animated animate__bounce animate__delay-2s" style="display: none">What did that fool say now?</button>
-       </div>
-       <button id="reset" >RESET</button>  
+    <!-- FOR COPY/PASTE:    style="display: none" -->
+    <div id="bottomButtons">
+        <button id="getLib1" class="l1 animate__animated animate__bounce animate__delay-2s" style="display: none">GET
+            FIRST LIB</button>
+        <button id="getLib2" class="l2 animate__animated animate__bounce animate__delay-2s" style="display: none">GET
+            SECOND LIB</button>
+        <button id="getLib3" class="l3 animate__animated animate__bounce animate__delay-2s" style="display: none">What
+            did that fool say now?</button>
+    </div>
+    <button id="reset">RESET</button>
 </body>
+
 </html>
-
-
-
