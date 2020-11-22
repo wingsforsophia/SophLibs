@@ -37,7 +37,7 @@ button {
   align-items: center;
   outline: none;
   background-color: rgb(142, 199, 187);
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }  
 
@@ -82,6 +82,7 @@ select:focus {
   justify-content: space-around;
   width: 100%;
   max-width: 800px;
+  
   }
 
 #firstLib, #secondLib, #thirdLib {
@@ -98,20 +99,22 @@ select:focus {
 #reset {
   display: flex;
   justify-self: center;
-  background-color: red;
-  padding: 10px;
-  margin: 10px;
+  background-image: linear-gradient(to right top, #f30d58, #cd0b47, #a90938, #850629, #64041c);
 }
 
 #getLib1, #getLib2, #getLib3 {
   margin: 0 auto;
   --animate-delay: 3s;
+  background-image: linear-gradient(to right bottom, #0df32b, #0cd425, #0ab61f, #099919, #077d13);
 }
 
 #allLibContent {
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
+ }
+ #lib1, #lib2, #lib3 {
+  background-image: linear-gradient(to right top, #0c63e5, #0094ff, #00b8f5, #00d5bf, #12eb7d);
  }
 
 
@@ -127,5 +130,3 @@ select:focus {
 }
 
 
-/* font-family: 'Architects Daughter', cursive;
-font-family: 'Roboto Condensed', sans-serif; */

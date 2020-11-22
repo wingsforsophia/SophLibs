@@ -84,9 +84,6 @@ reset.addEventListener('click', () => {
 
 /*-------------------------------- Functions --------------------------------*/
 
-
-
-
 function renderLib1() {
 
   let l1properNoun1 = document.getElementById("l1-properNoun1").value
@@ -102,9 +99,6 @@ function renderLib1() {
 
 
   forms1.forEach(form => form = form.setAttribute("style", "display: none"))
-
-
-
 
 
   function capitalizeFirstLetter(string) {
@@ -181,11 +175,13 @@ function renderLib3() {
 
 }
 
+
+
+
 // end renderLib3()
 
 
 // const setBg = () => {
 //   const randomColor = Math.floor(Math.random()*16777215).toString(16);
 //   document.body.style.backgroundColor = "#" + randomColor;
-//   color.innerHTML = "#" + randomColor;
-}
+//   color.innerHTML = "#" + randomColor;}
