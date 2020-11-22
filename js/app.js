@@ -72,9 +72,6 @@ getLib3.addEventListener('click', () => {
   renderLib3()
 })
 
-
-// reset button needs a lot of work
-
 reset.addEventListener('click', () => {
   location = location
 
@@ -99,6 +96,7 @@ function renderLib1() {
 
 
   forms1.forEach(form => form = form.setAttribute("style", "display: none"))
+
 
 
   function capitalizeFirstLetter(string) {

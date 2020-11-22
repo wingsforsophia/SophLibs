@@ -39,6 +39,11 @@ button {
   font-family: 'Roboto Condensed', sans-serif;
 }  
 
+button:hover{
+  color: white;
+  border: 3px grey;
+  
+}
 
 .forms1, .forms2, .forms3 {
   font-size: 18px;
@@ -103,7 +108,7 @@ select:focus {
 #reset {
   display: flex;
   justify-self: center;
-  background-image: linear-gradient(to right top, #f30d58, #cd0b47, #a90938, #850629, #64041c);
+  background-image: linear-gradient(to top, #f60a12, #f72e2c, #f74340, #f65553, #f36565);
   font-size: 18px;
   box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
 }
@@ -120,10 +125,16 @@ select:focus {
   max-width: 800px;
   margin: 0 auto;
  }
+
+
  #lib1, #lib2, #lib3 {
   background-image: linear-gradient(to right top, #0c63e5, #0094ff, #00b8f5, #00d5bf, #12eb7d);
   box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
  }
+
+ /* #l1-print-here, #l2-print-here, #l3-print-here{
+  
+ } */
 
      /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
@@ -136,4 +147,10 @@ select:focus {
 
 }
 
+#firstLib, #secondLib, #thirdLib {
+  font-size: 20px;
+  margin: 0 auto;
+  font-family: 'Architects Daughter', cursive;
+  text-shadow: 0px 0px 13px rgba(56,56,56,0.3) ;
+}
 
