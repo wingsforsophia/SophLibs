@@ -21,10 +21,14 @@ const l3printHere = document.getElementById('l3-print-here')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
+lib1Start.onmousedown = ()=>{
+  lib1Start.className += 'animate__animated animate__heartBeat'
+}
+
 
 lib1Start.addEventListener('click', ()=>{
     if (lib1.style.display === "none") {
-    lib1.style.display = "block"
+     lib1.style.display = "block"
     getLib1.style.display = "block"
     lib2.style.display = "none"
     lib3.style.display = "none"
@@ -61,12 +65,15 @@ lib3Start.addEventListener('click', ()=>{
 // render buttons-------------------------------------
 
 getLib1.addEventListener('click', ()=>{
+  l1printHere.className += 'l1 animate__animated animate__fadeInLeft'
  renderLib1()
  })
 getLib2.addEventListener('click', ()=>{
+  l2printHere.className += 'l2 animate__animated animate__fadeInLeft'
   renderLib2()
   })
 getLib3.addEventListener('click', ()=>{
+  l3printHere.className += 'l3 animate__animated animate__fadeInLeft'
     renderLib3()
 })
 
@@ -99,6 +106,8 @@ let l1number2 = document.getElementById('l1-number2').value
 
 
     forms1.forEach(form => form = form.setAttribute("style", "display: none"))
+
+    
   
 
     function capitalizeFirstLetter(string) {
