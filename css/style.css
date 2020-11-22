@@ -58,6 +58,7 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.27);
+  border: none;
   
   
 }
@@ -152,6 +153,6 @@ select:focus {
   font-size: 20px;
   margin: 0 auto;
   font-family: 'Architects Daughter', cursive;
-  text-shadow: 0px 0px 13px rgba(56,56,56,0.3) ;
+  text-shadow: none;
 }
 
