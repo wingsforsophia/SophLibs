@@ -38,8 +38,8 @@ button {
   outline: none;
   background-color: rgb(142, 199, 187);
   font-family: 'Roboto Condensed', sans-serif;
-
 }  
+
 
 .forms1, .forms2, .forms3 {
   font-size: 15px;
@@ -55,11 +55,11 @@ input {
   
 }
 input[type=text]:focus {
-  background-color: lightblue;
+  background-image: linear-gradient(to right bottom, #9eefdd, #87f3da, #6ef7d5, #4efad0, #0dfdc9);
   outline: none;
 }
 input[type=number]:focus {
-  background-color: lightblue;
+  background-image: linear-gradient(to right bottom, #9eefdd, #87f3da, #6ef7d5, #4efad0, #0dfdc9);
   outline: none;
 }
 select {
@@ -71,7 +71,7 @@ select {
   
 }
 select:focus {
-  background-color: lightblue;
+  background-image: linear-gradient(to right bottom, #9eefdd, #87f3da, #6ef7d5, #4efad0, #0dfdc9);
   outline: none;
 }
 
@@ -100,6 +100,7 @@ select:focus {
   display: flex;
   justify-self: center;
   background-image: linear-gradient(to right top, #f30d58, #cd0b47, #a90938, #850629, #64041c);
+  font-size: 18px;
 }
 
 #getLib1, #getLib2, #getLib3 {
@@ -116,7 +117,6 @@ select:focus {
  #lib1, #lib2, #lib3 {
   background-image: linear-gradient(to right top, #0c63e5, #0094ff, #00b8f5, #00d5bf, #12eb7d);
  }
-
 
      /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
