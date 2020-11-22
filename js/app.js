@@ -124,6 +124,7 @@ let l1number2 = document.getElementById('l1-number2').value
   let l2adjective1 = document.getElementById('l2-adjective1').value.toLowerCase() 
   let l2favoriteThing1 = document.getElementById('l2-favoriteThing1').value.toLowerCase()
   let l2name1 = document.getElementById('l2-name1').value 
+  let l2number1 = document.getElementById('l2-number1').value
 
 
   forms2.forEach(form => form = form.setAttribute("style", "display: none"))
@@ -143,7 +144,7 @@ let l1number2 = document.getElementById('l1-number2').value
     }
 
 
-l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place near ${uppercase(l2place1)} consisting mainly of a ${l2thing1} store — chooses its ${l2animal2}mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These ${l2adjective1} public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${capitalizeFirstLetter(l2name1)}’s campaign for mayor raised $6,165 on an online fundraising page.`
+l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place near ${uppercase(l2place1)} consisting mainly of a ${l2thing1} store — chooses its ${l2animal2} mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These ${l2adjective1} public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${capitalizeFirstLetter(l2name1)}’s campaign for mayor raised $${l2number1} on an online fundraising page.`
 
   }
 // end rednerlib2()
