@@ -21,11 +21,6 @@ const l3printHere = document.getElementById('l3-print-here')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-lib1Start.onmousedown = ()=>{
-  lib1Start.className += 'animate__animated animate__heartBeat'
-}
-
-
 lib1Start.addEventListener('click', ()=>{
     if (lib1.style.display === "none") {
      lib1.style.display = "block"
@@ -124,8 +119,10 @@ let l1number2 = document.getElementById('l1-number2').value
   let l2animal1 = document.getElementById('l2-animal1').value 
   let l2place1 = document.getElementById('l2-place1').value 
   let l2thing1 = document.getElementById('l2-thing1').value 
+  let l2animal2 = document.getElementById('l2-animal2').value.toLowerCase()
   let l2bodyPart1 = document.getElementById('l2-bodyPart1').value 
-  let l2favoriteThing1 = document.getElementById('l2-favoriteThing1').value
+  let l2adjective1 = document.getElementById('l2-adjective1').value.toLowerCase() 
+  let l2favoriteThing1 = document.getElementById('l2-favoriteThing1').value.toLowerCase()
   let l2name1 = document.getElementById('l2-name1').value 
 
 
@@ -136,9 +133,17 @@ let l1number2 = document.getElementById('l1-number2').value
       return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
+    function uppercase(str) {
+      let array1 = str.split(' ');
+      let newarray1 = [];
+      for(let x = 0; x < array1.length; x++){
+          newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+      }
+      return newarray1.join(' ');
+    }
 
 
-l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place by ${l2place1} consisting mainly of a ${l2thing1} store — chooses its mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These four-legged public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${l2name1}’s campaign for mayor raised $6,165 on an online fundraising page.`
+l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hash — a census-designated place near ${uppercase(l2place1)} consisting mainly of a ${l2thing1} store — chooses its ${l2animal2}mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These ${l2adjective1} public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hash Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${capitalizeFirstLetter(l2name1)}’s campaign for mayor raised $6,165 on an online fundraising page.`
 
   }
 // end rednerlib2()
