@@ -36,7 +36,6 @@ button {
   justify-content: center;
   align-items: center;
   outline: none;
-  background-color: rgb(142, 199, 187);
   font-family: 'Roboto Condensed', sans-serif;
 }  
 
@@ -52,6 +51,8 @@ input {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.27);
+  
   
 }
 input[type=text]:focus {
@@ -89,6 +90,8 @@ select:focus {
   font-size: 20px;
   margin: 0 auto;
   font-family: 'Architects Daughter', cursive;
+  text-shadow: 9px 4px 13px rgba(56,56,56,0.89);
+
 }
 
 #bottomButtons {
@@ -101,12 +104,14 @@ select:focus {
   justify-self: center;
   background-image: linear-gradient(to right top, #f30d58, #cd0b47, #a90938, #850629, #64041c);
   font-size: 18px;
+  box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
 }
 
 #getLib1, #getLib2, #getLib3 {
   margin: 0 auto;
   --animate-delay: 3s;
   background-image: linear-gradient(to right bottom, #0df32b, #0cd425, #0ab61f, #099919, #077d13);
+  box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
 }
 
 #allLibContent {
@@ -116,6 +121,7 @@ select:focus {
  }
  #lib1, #lib2, #lib3 {
   background-image: linear-gradient(to right top, #0c63e5, #0094ff, #00b8f5, #00d5bf, #12eb7d);
+  box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
  }
 
      /* Smartphones (portrait and landscape) ----------- */
