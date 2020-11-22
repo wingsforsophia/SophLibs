@@ -101,7 +101,8 @@ let l1number2 = document.getElementById('l1-number2').value
 
 
     forms1.forEach(form => form = form.setAttribute("style", "display: none"))
-
+    
+    
     
   
 

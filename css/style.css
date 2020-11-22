@@ -89,7 +89,6 @@ select:focus {
 }
 
 #bottomButtons {
-  
   padding: 10px;
   margin: 10px;
 }
@@ -104,6 +103,8 @@ select:focus {
 
 #getLib1, #getLib2, #getLib3 {
   margin: 0 auto;
+  --animate-delay: 3s;
+  /* --animate-repeat: 2; */
 }
 
 #allLibContent {
