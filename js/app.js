@@ -175,7 +175,7 @@ function renderLib2() {
 // begin renderlib3()
 
 function renderLib3() {
-  let l3adjective1 = document.getElementById('l3-adjective1')
+  let l3adjective1 = document.getElementById('l3-adjective1').value
   let l3thing1 = document.getElementById('l3-thing1').value.toLowerCase()
   let l3chore1 = document.getElementById('l3-chore1').value
   let l3name1 = document.getElementById('l3-name1').value
@@ -187,7 +187,7 @@ function renderLib3() {
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
 
- 
+
 
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
@@ -216,11 +216,11 @@ function renderLib3() {
   <div class="confetti"></div>
   <div class="confetti"></div>
  </div>`
- 
+
 
   l3printHere.innerHTML = `Thank you very much. This is a very ${l3adjective1} announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our ${l3blueCheese1} seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${capitalizeFirstLetter(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here.`
 
-  
+
 
 }
 
