@@ -84,7 +84,7 @@ select:focus {
 
 #buttonBar {
   padding: 10px;
-  margin: 150px 20px 0 20px;
+  margin: 150px 20px 30px 20px;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -146,7 +146,7 @@ select:focus {
  }
 
 #chooseLibAbove {
-  margin: 50px 0;
+  margin: 10px 0;
   text-align: center;
   font-family: 'Special Elite', cursive;
   font-size: 35px;
@@ -235,7 +235,7 @@ background-color: #f2d74e; left: 100%; animation-delay: -2.5s;
     font-size: 40px
    }
    #chooseLibAbove {
-    margin: 50px 0;
+    margin: 20px 0;
     text-align: center;
     font-family: 'Special Elite', cursive;
     font-size: 22px;
@@ -244,11 +244,12 @@ background-color: #f2d74e; left: 100%; animation-delay: -2.5s;
 
    #buttonBar {
     padding: 10px;
-    margin: 50px 20px 0 20px;
+    margin: 50px 20px 30px 20px;
     display: flex;
     justify-content: space-around;
     width: 100%;
     max-width: 800px;
+    
   }
 
 
