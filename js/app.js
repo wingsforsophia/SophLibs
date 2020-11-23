@@ -16,6 +16,8 @@ const lib3 = document.getElementById('thirdLib')
 const l1printHere = document.getElementById('l1-print-here')
 const l2printHere = document.getElementById('l2-print-here')
 const l3printHere = document.getElementById('l3-print-here')
+const l2animal1 = document.getElementById('l2-animal1')
+const audio = new Audio("audio/animal_cat_meow.mp3");
 
 
 
@@ -56,9 +58,6 @@ lib3Start.addEventListener('click', () => {
 })
 
 
-
-// render buttons-------------------------------------
-
 getLib1.addEventListener('click', () => {
   l1printHere.className += 'l1 animate__animated animate__fadeInLeft'
   renderLib1()
@@ -77,6 +76,9 @@ reset.addEventListener('click', () => {
 
 })
 
+l2animal1.onclick = function() {
+  audio.play();
+}
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -224,8 +226,4 @@ function renderLib3() {
 
 }
 
-
-
-
 // end renderLib3()
-
