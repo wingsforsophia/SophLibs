@@ -93,7 +93,7 @@ function renderLib1() {
   let l1identifier3 = document.getElementById('l1-identifier3').value
   let l1food1 = document.getElementById('l1-food1').value.toLowerCase()
   let l1number2 = document.getElementById('l1-number2').value
-
+  let l1confetti = document.getElementById('l1-confetti-here')
 
   forms1.forEach(form => form = form.setAttribute("style", "display: none"))
 
@@ -102,6 +102,26 @@ function renderLib1() {
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
+
+  l1confetti.innerHTML = `  
+  <div class="container" id="container">
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+</div>`
+
 
   l1printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
 
@@ -119,7 +139,7 @@ function renderLib2() {
   let l2favoriteThing1 = document.getElementById('l2-favoriteThing1').value.toLowerCase()
   let l2name1 = document.getElementById('l2-name1').value
   let l2number1 = document.getElementById('l2-number1').value
-
+  let l2confetti = document.getElementById('l2-confetti-here')
 
   forms2.forEach(form => form = form.setAttribute("style", "display: none"))
 
@@ -136,6 +156,24 @@ function renderLib2() {
     }
     return newarray1.join(' ');
   }
+  l2confetti.innerHTML = `  
+  <div class="container" id="container">
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+</div>`
 
 
   l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hollow — a census-designated place near ${uppercase(l2place1)} consisting mainly of a ${l2thing1} store — chooses its ${l2animal2} mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These ${l2adjective1} public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hollow Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${capitalizeFirstLetter(l2name1)}’s campaign for mayor raised $${l2number1} on an online fundraising page.`
@@ -152,8 +190,11 @@ function renderLib3() {
   let l3dislike1 = document.getElementById('l3-dislike1').value
   let l3blueCheese1 = document.getElementById('l3-blueCheese1').value
   let l3name2 = document.getElementById('l3-name2').value
+  let l3confetti = document.getElementById('l3-confetti-here')
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
+
+ 
 
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
@@ -169,7 +210,29 @@ function renderLib3() {
     return newarray1.join(' ');
   }
 
+  l3confetti.innerHTML = `  
+  <div class="container" id="container">
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+</div>`
+ 
+
   l3printHere.innerHTML = `Thank you very much. This is a very big announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our ${l3blueCheese1} seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${capitalizeFirstLetter(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${capitalizeFirstLetter(l3name2)}. Thank you both. Thank you both. And thank you all for being here. Appreciate it.`
+
+  
 
 }
 
