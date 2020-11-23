@@ -17,7 +17,11 @@ const l1printHere = document.getElementById('l1-print-here')
 const l2printHere = document.getElementById('l2-print-here')
 const l3printHere = document.getElementById('l3-print-here')
 const l2animal1 = document.getElementById('l2-animal1')
-const audio = new Audio("audio/animal_cat_meow.mp3");
+const audio = new Audio('audio/animal_cat_meow.mp3')
+const welcome = document.getElementById('welcome')
+const chooseLibAbove = document.getElementById('chooseLibAbove')
+
+
 
 
 
@@ -31,6 +35,8 @@ lib1Start.addEventListener('click', () => {
     lib3.style.display = "none"
     getLib2.style.display = "none"
     getLib3.style.display = "none"
+    chooseLibAbove.style.display = "none"
+    welcome.style.display = "none"
   }
 })
 
@@ -42,6 +48,8 @@ lib2Start.addEventListener('click', () => {
     lib3.style.display = "none"
     getLib1.style.display = "none"
     getLib3.style.display = "none"
+    chooseLibAbove.style.display = "none"
+    welcome.style.display = "none"
   }
 })
 
@@ -53,6 +61,8 @@ lib3Start.addEventListener('click', () => {
     lib2.style.display = "none"
     getLib2.style.display = "none"
     getLib1.style.display = "none"
+    chooseLibAbove.style.display = "none"
+    welcome.style.display = "none"
 
   }
 })
@@ -73,10 +83,10 @@ getLib3.addEventListener('click', () => {
 
 reset.addEventListener('click', () => {
   location = location
-
 })
 
-l2animal1.onclick = function() {
+
+l2animal1.onclick = function () {
   audio.play();
 }
 
