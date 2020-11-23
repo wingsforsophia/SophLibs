@@ -48,6 +48,8 @@ JavaScript, CSS, HTML
 
 ## Planned future enhancements
 
+Webkit updates to improve appearance on Safari and Firefox
+
 More categories, more libs, further DRYing the code. 
 
 
