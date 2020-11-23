@@ -10,6 +10,9 @@ const lib3Start = document.getElementById('lib3')
 const getLib1 = document.getElementById('getLib1')
 const getLib2 = document.getElementById('getLib2')
 const getLib3 = document.getElementById('getLib3')
+const clearLib1 = document.getElementById('clearLib1')
+const clearLib2 = document.getElementById('clearLib2')
+const clearLib3 = document.getElementById('clearLib3')
 const lib1 = document.getElementById('firstLib')
 const lib2 = document.getElementById('secondLib')
 const lib3 = document.getElementById('thirdLib')
@@ -31,6 +34,7 @@ lib1Start.addEventListener('click', () => {
   if (lib1.style.display === "none") {
     lib1.style.display = "block"
     getLib1.style.display = "block"
+    clearLib1.style.display = "block"
     lib2.style.display = "none"
     lib3.style.display = "none"
     getLib2.style.display = "none"
@@ -44,6 +48,7 @@ lib2Start.addEventListener('click', () => {
   if (lib2.style.display === "none") {
     lib2.style.display = "block"
     getLib2.style.display = "block"
+    clearLib2.style.display = "block"
     lib1.style.display = "none"
     lib3.style.display = "none"
     getLib1.style.display = "none"
@@ -57,6 +62,7 @@ lib3Start.addEventListener('click', () => {
   if (lib3.style.display === "none") {
     lib3.style.display = "block"
     getLib3.style.display = "block"
+    clearLib3.style.display = "block"
     lib1.style.display = "none"
     lib2.style.display = "none"
     getLib2.style.display = "none"
@@ -80,6 +86,20 @@ getLib3.addEventListener('click', () => {
   l3printHere.className += 'l3 animate__animated animate__fadeInLeft'
   renderLib3()
 })
+
+clearLib1.addEventListener('click', () => {
+l1Clear()
+})
+clearLib2.addEventListener('click', () => {
+  // l2printHere.className += 'l2 animate__animated animate__fadeInLeft'
+  // renderLib2()
+})
+clearLib3.addEventListener('click', () => {
+  // l3printHere.className += 'l3 animate__animated animate__fadeInLeft'
+  // renderLib3()
+})
+
+
 
 reset.addEventListener('click', () => {
   location = location
@@ -221,5 +241,30 @@ function renderLib3() {
 
 
   l3printHere.innerHTML = `Thank you very much. This is a very ${l3adjective1} announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our ${l3blueCheese1} seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${uppercase(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${uppercase(l3name2)}. Thank you both. Thank you both. And thank you all for being here.`
+
+}
+
+function l1Clear() {
+  document.getElementById("l1-properNoun1").value=""
+  document.getElementById("l1-number1").value=""
+  document.getElementById('l1-fourLetterWord').value=""
+  document.getElementById('l1-identifier1').value=""
+  document.getElementById('l1-bodyPart1').value=""
+  document.getElementById('l1-identifier2').value=""
+  document.getElementById('l1-sportball1').value=""
+  document.getElementById('l1-identifier3').value=""
+  document.getElementById('l1-food1').value=""
+  document.getElementById('l1-number2').value=""
+  // let l1confetti = document.getElementById('l1-confetti-here')
+
+
+ 
+  // l1confetti.innerText = ""
+  // l1printHere.innerText = ""
+
+
+
+  forms1.forEach(form => form = form.setAttribute("style", "display: block"))
+
 
 }
