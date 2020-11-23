@@ -258,25 +258,6 @@ function l1Clear() {
   l1printHere.innerText = ""
 }
 
-function l1Clear() {
-  document.getElementById("l1-properNoun1").value = ""
-  document.getElementById("l1-number1").value = ""
-  document.getElementById('l1-fourLetterWord').value = ""
-  document.getElementById('l1-identifier1').value = ""
-  document.getElementById('l1-bodyPart1').value = ""
-  document.getElementById('l1-identifier2').value = ""
-  document.getElementById('l1-sportball1').value = ""
-  document.getElementById('l1-identifier3').value = ""
-  document.getElementById('l1-food1').value = ""
-  document.getElementById('l1-number2').value = ""
-  let l1confetti = document.getElementById('l1-confetti-here')
-
-  forms1.forEach(form => form = form.setAttribute("style", "display: block"))
-
-  l1confetti.innerText = ""
-  l1printHere.innerText = ""
-}
-
 function l2Clear() {
   document.getElementById('l2-animal1').value = ""
   document.getElementById('l2-place1').value = ""
