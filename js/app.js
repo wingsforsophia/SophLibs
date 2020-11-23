@@ -24,10 +24,6 @@ const audio = new Audio('audio/animal_cat_meow.mp3')
 const welcome = document.getElementById('welcome')
 const chooseLibAbove = document.getElementById('chooseLibAbove')
 
-
-
-
-
 /*----------------------------- Event Listeners -----------------------------*/
 
 lib1Start.addEventListener('click', () => {
@@ -43,10 +39,7 @@ lib1Start.addEventListener('click', () => {
     getLib3.style.display = "none"
     chooseLibAbove.style.display = "none"
     welcome.style.display = "none"
-     
-  }
- 
-
+   }
 })
 
 lib2Start.addEventListener('click', () => {
@@ -78,7 +71,6 @@ lib3Start.addEventListener('click', () => {
     getLib1.style.display = "none"
     chooseLibAbove.style.display = "none"
     welcome.style.display = "none"
-
   }
 })
 
@@ -263,10 +255,8 @@ function l1Clear() {
 
   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
 
- 
   l1confetti.innerText = ""
   l1printHere.innerText = ""
-
 }
 
 function l1Clear() {
@@ -284,11 +274,10 @@ function l1Clear() {
 
   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
 
- 
   l1confetti.innerText = ""
   l1printHere.innerText = ""
-
 }
+
 function l2Clear() {
   document.getElementById('l2-animal1').value=""
   document.getElementById('l2-place1').value=""
@@ -299,16 +288,12 @@ function l2Clear() {
   document.getElementById('l2-favoriteThing1').value=""
   document.getElementById('l2-name1').value=""
   document.getElementById('l2-number1').value=""
-
   let l2confetti = document.getElementById('l2-confetti-here')
-
 
   forms2.forEach(form => form = form.setAttribute("style", "display: block"))
 
- 
   l2confetti.innerText = ""
   l2printHere.innerText = ""
-
 }
 
 function l3Clear() {
@@ -324,8 +309,6 @@ function l3Clear() {
 
   forms3.forEach(form => form = form.setAttribute("style", "display: block"))
 
- 
   l3confetti.innerText = ""
   l3printHere.innerText = ""
-
 }
