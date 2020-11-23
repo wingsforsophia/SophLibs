@@ -12,7 +12,7 @@ Just trying to add a little humor to someone's day.
 
 Follow the prompts and have fun.
 
-## Screenshot
+## Mobile screenshots
 
 ![Welcome page](https://imgur.com/Jf0CfKD.png)
 ![Forms page](https://imgur.com/6mUpOM2.png)
