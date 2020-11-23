@@ -300,7 +300,7 @@ function l3Clear() {
   document.getElementById('l3-adjective1').value=""
   document.getElementById('l3-thing1').value=""
   document.getElementById('l3-chore1').value=""
-  ocument.getElementById('l3-name1').value=""
+  document.getElementById('l3-name1').value=""
   document.getElementById('l3-dislike1').value=""
   document.getElementById('l3-blueCheese1').value=""
   document.getElementById('l3-name2').value=""
