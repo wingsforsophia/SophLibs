@@ -156,7 +156,7 @@ function renderLib2() {
   let l2place1 = document.getElementById('l2-place1').value
   let l2thing1 = document.getElementById('l2-thing1').value
   let l2animal2 = document.getElementById('l2-animal2').value.toLowerCase()
-  let l2bodyPart1 = document.getElementById('l2-bodyPart1').value
+  let l2bodyPart1 = document.getElementById('l2-bodyPart1').value.toLowerCase()
   let l2adjective1 = document.getElementById('l2-adjective1').value.toLowerCase()
   let l2favoriteThing1 = document.getElementById('l2-favoriteThing1').value.toLowerCase()
   let l2name1 = document.getElementById('l2-name1').value
