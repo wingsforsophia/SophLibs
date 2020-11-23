@@ -74,3 +74,10 @@ Date: Nov. 20, 2020
 
 #### Sound
 Sound from Zapsplat.com
+
+### Confetti
+Author: Steven_Joel
+
+Url: https://forum.webflow.com/t/add-falling-confetti-with-css/103687
+
+Date: December 2020
