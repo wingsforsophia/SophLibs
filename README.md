@@ -8,22 +8,13 @@ MadLibs style game designed to render on mobile.
 
 Just trying to add a little humor to someone's day.
 
-## Instructions
-
-Follow the prompts and have fun.
-
-## Mobile screenshots
-
-![Welcome page](https://imgur.com/Jf0CfKD.png)
-![Forms page](https://imgur.com/6mUpOM2.png)
-![Render screen](https://imgur.com/4SMLQgi.png)
-
 
 ## Wireframes
 
 ![First wireframe](https://imgur.com/YYxd04y.png)
 ![Second wireframe](https://imgur.com/OnNQ4RL.png)
 ![Third wireframe](https://imgur.com/MwIFAFn.png)
+
 
 ## Pseudocode
 
@@ -44,6 +35,16 @@ change lib gives another story option
 ## Technologies used 
 
 JavaScript, CSS, HTML
+
+## Instructions
+
+Follow the prompts and have fun.
+
+## Mobile screenshots
+
+![Welcome page](https://imgur.com/Jf0CfKD.png)
+![Forms page](https://imgur.com/6mUpOM2.png)
+![Render screen](https://imgur.com/4SMLQgi.png)
 
 
 ## Planned future enhancements

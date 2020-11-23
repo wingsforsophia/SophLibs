@@ -39,7 +39,7 @@ lib1Start.addEventListener('click', () => {
     getLib3.style.display = "none"
     chooseLibAbove.style.display = "none"
     welcome.style.display = "none"
-   }
+  }
 })
 
 lib2Start.addEventListener('click', () => {
@@ -88,14 +88,14 @@ getLib3.addEventListener('click', () => {
 })
 
 clearLib1.addEventListener('click', () => {
-l1Clear()
+  l1Clear()
 })
 clearLib2.addEventListener('click', () => {
-l2Clear()
- 
+  l2Clear()
+
 })
 clearLib3.addEventListener('click', () => {
-l3Clear()
+  l3Clear()
 })
 
 reset.addEventListener('click', () => {
@@ -125,8 +125,6 @@ function renderLib1() {
 
   forms1.forEach(form => form = form.setAttribute("style", "display: none"))
 
-
-
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
@@ -148,7 +146,7 @@ function renderLib1() {
 
   l1printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
 
-} 
+}
 
 //begin renderlib2()-----------------------------------------
 function renderLib2() {
@@ -212,7 +210,7 @@ function renderLib3() {
   let l3confetti = document.getElementById('l3-confetti-here')
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
- 
+
   function uppercase(str) {
     let array1 = str.split(' ');
     let newarray1 = [];
@@ -242,16 +240,16 @@ function renderLib3() {
 }
 
 function l1Clear() {
-  document.getElementById("l1-properNoun1").value=""
-  document.getElementById("l1-number1").value=""
-  document.getElementById('l1-fourLetterWord').value=""
-  document.getElementById('l1-identifier1').value=""
-  document.getElementById('l1-bodyPart1').value=""
-  document.getElementById('l1-identifier2').value=""
-  document.getElementById('l1-sportball1').value=""
-  document.getElementById('l1-identifier3').value=""
-  document.getElementById('l1-food1').value=""
-  document.getElementById('l1-number2').value=""
+  document.getElementById("l1-properNoun1").value = ""
+  document.getElementById("l1-number1").value = ""
+  document.getElementById('l1-fourLetterWord').value = ""
+  document.getElementById('l1-identifier1').value = ""
+  document.getElementById('l1-bodyPart1').value = ""
+  document.getElementById('l1-identifier2').value = ""
+  document.getElementById('l1-sportball1').value = ""
+  document.getElementById('l1-identifier3').value = ""
+  document.getElementById('l1-food1').value = ""
+  document.getElementById('l1-number2').value = ""
   let l1confetti = document.getElementById('l1-confetti-here')
 
   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
@@ -261,16 +259,16 @@ function l1Clear() {
 }
 
 function l1Clear() {
-  document.getElementById("l1-properNoun1").value=""
-  document.getElementById("l1-number1").value=""
-  document.getElementById('l1-fourLetterWord').value=""
-  document.getElementById('l1-identifier1').value=""
-  document.getElementById('l1-bodyPart1').value=""
-  document.getElementById('l1-identifier2').value=""
-  document.getElementById('l1-sportball1').value=""
-  document.getElementById('l1-identifier3').value=""
-  document.getElementById('l1-food1').value=""
-  document.getElementById('l1-number2').value=""
+  document.getElementById("l1-properNoun1").value = ""
+  document.getElementById("l1-number1").value = ""
+  document.getElementById('l1-fourLetterWord').value = ""
+  document.getElementById('l1-identifier1').value = ""
+  document.getElementById('l1-bodyPart1').value = ""
+  document.getElementById('l1-identifier2').value = ""
+  document.getElementById('l1-sportball1').value = ""
+  document.getElementById('l1-identifier3').value = ""
+  document.getElementById('l1-food1').value = ""
+  document.getElementById('l1-number2').value = ""
   let l1confetti = document.getElementById('l1-confetti-here')
 
   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
@@ -280,15 +278,15 @@ function l1Clear() {
 }
 
 function l2Clear() {
-  document.getElementById('l2-animal1').value=""
-  document.getElementById('l2-place1').value=""
-  document.getElementById('l2-thing1').value=""
-  document.getElementById('l2-animal2').value=""
-  document.getElementById('l2-bodyPart1').value=""
-  document.getElementById('l2-adjective1').value=""
-  document.getElementById('l2-favoriteThing1').value=""
-  document.getElementById('l2-name1').value=""
-  document.getElementById('l2-number1').value=""
+  document.getElementById('l2-animal1').value = ""
+  document.getElementById('l2-place1').value = ""
+  document.getElementById('l2-thing1').value = ""
+  document.getElementById('l2-animal2').value = ""
+  document.getElementById('l2-bodyPart1').value = ""
+  document.getElementById('l2-adjective1').value = ""
+  document.getElementById('l2-favoriteThing1').value = ""
+  document.getElementById('l2-name1').value = ""
+  document.getElementById('l2-number1').value = ""
   let l2confetti = document.getElementById('l2-confetti-here')
 
   forms2.forEach(form => form = form.setAttribute("style", "display: block"))
@@ -298,13 +296,13 @@ function l2Clear() {
 }
 
 function l3Clear() {
-  document.getElementById('l3-adjective1').value=""
-  document.getElementById('l3-thing1').value=""
-  document.getElementById('l3-chore1').value=""
-  document.getElementById('l3-name1').value=""
-  document.getElementById('l3-dislike1').value=""
-  document.getElementById('l3-blueCheese1').value=""
-  document.getElementById('l3-name2').value=""
+  document.getElementById('l3-adjective1').value = ""
+  document.getElementById('l3-thing1').value = ""
+  document.getElementById('l3-chore1').value = ""
+  document.getElementById('l3-name1').value = ""
+  document.getElementById('l3-dislike1').value = ""
+  document.getElementById('l3-blueCheese1').value = ""
+  document.getElementById('l3-name2').value = ""
 
   let l3confetti = document.getElementById('l3-confetti-here')
 
