@@ -103,6 +103,7 @@ reset.addEventListener('click', () => {
 })
 
 l2animal1.onclick = function () {
+  audio.volume = 0.01;
   audio.play();
 }
 

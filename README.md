@@ -48,7 +48,7 @@ JavaScript, CSS, HTML
 
 ## Planned future enhancements
 
-More categories, more libs, further DRYing out the code. 
+More categories, more libs, further DRYing the code. 
 
 
 ## Sources/Attributions
