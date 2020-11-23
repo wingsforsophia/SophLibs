@@ -86,3 +86,7 @@ Author: Steven_Joel
 Url: https://forum.webflow.com/t/add-falling-confetti-with-css/103687
 
 Date: December 2020
+
+#### Animations
+
+Url: https://animate.style/
