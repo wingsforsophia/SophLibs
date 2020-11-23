@@ -192,7 +192,7 @@ function renderLib3() {
   let l3chore1 = document.getElementById('l3-chore1').value
   let l3name1 = document.getElementById('l3-name1').value
   let l3dislike1 = document.getElementById('l3-dislike1').value
-  let l3blueCheese1 = document.getElementById('l3-blueCheese1').value
+  let l3blueCheese1 = document.getElementById('l3-blueCheese1').value.toLowerCase()
   let l3name2 = document.getElementById('l3-name2').value
 
   let l3confetti = document.getElementById('l3-confetti-here')
