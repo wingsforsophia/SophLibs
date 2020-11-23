@@ -111,7 +111,7 @@ select:focus {
   box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
 }
 
-#getLib1, #getLib2, #getLib3 {
+#getLib1, #getLib2, #getLib3, #clearLib1 {
   margin: 0 auto;
   --animate-delay: 3s;
   background-image: linear-gradient(to right bottom, #0df32b, #0cd425, #0ab61f, #099919, #077d13);

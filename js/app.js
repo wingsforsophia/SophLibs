@@ -91,12 +91,11 @@ clearLib1.addEventListener('click', () => {
 l1Clear()
 })
 clearLib2.addEventListener('click', () => {
-  // l2printHere.className += 'l2 animate__animated animate__fadeInLeft'
-  // renderLib2()
+l2Clear()
+ 
 })
 clearLib3.addEventListener('click', () => {
-  // l3printHere.className += 'l3 animate__animated animate__fadeInLeft'
-  // renderLib3()
+l3Clear()
 })
 
 
@@ -183,6 +182,7 @@ function renderLib2() {
     }
     return newarray1.join(' ');
   }
+
   l2confetti.innerHTML = `  
   <div class="container" id="container">
     <div class="confetti"></div>
@@ -255,16 +255,73 @@ function l1Clear() {
   document.getElementById('l1-identifier3').value=""
   document.getElementById('l1-food1').value=""
   document.getElementById('l1-number2').value=""
-  // let l1confetti = document.getElementById('l1-confetti-here')
-
-
- 
-  // l1confetti.innerText = ""
-  // l1printHere.innerText = ""
-
-
+  let l1confetti = document.getElementById('l1-confetti-here')
 
   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
 
+ 
+  l1confetti.innerText = ""
+  l1printHere.innerText = ""
+
+}
+
+function l1Clear() {
+  document.getElementById("l1-properNoun1").value=""
+  document.getElementById("l1-number1").value=""
+  document.getElementById('l1-fourLetterWord').value=""
+  document.getElementById('l1-identifier1').value=""
+  document.getElementById('l1-bodyPart1').value=""
+  document.getElementById('l1-identifier2').value=""
+  document.getElementById('l1-sportball1').value=""
+  document.getElementById('l1-identifier3').value=""
+  document.getElementById('l1-food1').value=""
+  document.getElementById('l1-number2').value=""
+  let l1confetti = document.getElementById('l1-confetti-here')
+
+  forms1.forEach(form => form = form.setAttribute("style", "display: block"))
+
+ 
+  l1confetti.innerText = ""
+  l1printHere.innerText = ""
+
+}
+function l2Clear() {
+  document.getElementById('l2-animal1').value=""
+  document.getElementById('l2-place1').value=""
+  document.getElementById('l2-thing1').value=""
+  document.getElementById('l2-animal2').value=""
+  document.getElementById('l2-bodyPart1').value=""
+  document.getElementById('l2-adjective1').value=""
+  document.getElementById('l2-favoriteThing1').value=""
+  document.getElementById('l2-name1').value=""
+  document.getElementById('l2-number1').value=""
+
+  let l2confetti = document.getElementById('l2-confetti-here')
+
+
+  forms2.forEach(form => form = form.setAttribute("style", "display: block"))
+
+ 
+  l2confetti.innerText = ""
+  l2printHere.innerText = ""
+
+}
+
+function l3Clear() {
+  document.getElementById('l3-adjective1').value=""
+  document.getElementById('l3-thing1').value=""
+  document.getElementById('l3-chore1').value=""
+  ocument.getElementById('l3-name1').value=""
+  document.getElementById('l3-dislike1').value=""
+  document.getElementById('l3-blueCheese1').value=""
+  document.getElementById('l3-name2').value=""
+
+  let l3confetti = document.getElementById('l3-confetti-here')
+
+  forms3.forEach(form => form = form.setAttribute("style", "display: block"))
+
+ 
+  l3confetti.innerText = ""
+  l3printHere.innerText = ""
 
 }

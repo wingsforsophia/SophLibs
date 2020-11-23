@@ -2,6 +2,21 @@
 
 [SophLibs](https://happy-goldfish.surge.sh)
 
+MadLibs style game designed to render on mobile.
+
+## Background
+
+Just trying to add a little humor to someone's day.
+
+## Instructions
+
+Follow the prompts and have fun.
+
+## Screenshot
+
+<!-- enter screenshots here -->
+
+
 ## Wireframes
 
 ![First wireframe](https://imgur.com/YYxd04y.png)
@@ -24,8 +39,17 @@ generate renders the form info into the story and puts it on the screen
 
 change lib gives another story option
 
+## Technologies used 
 
-## Sources
+JavaScript, CSS, HTML
+
+
+## Planned future enhancements
+
+More categories, more libs, further DRYing out the code. 
+
+
+## Sources/Attributions
 
 #### Guinness Records
 Author: Ben Hooper
