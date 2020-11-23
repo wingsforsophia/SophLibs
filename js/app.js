@@ -73,7 +73,6 @@ lib3Start.addEventListener('click', () => {
   }
 })
 
-
 getLib1.addEventListener('click', () => {
   l1printHere.className += 'l1 animate__animated animate__fadeInLeft'
   renderLib1()
@@ -98,17 +97,13 @@ clearLib3.addEventListener('click', () => {
 l3Clear()
 })
 
-
-
 reset.addEventListener('click', () => {
   location = location
 })
 
-
 l2animal1.onclick = function () {
   audio.play();
 }
-
 
 /*-------------------------------- Functions --------------------------------*/
 

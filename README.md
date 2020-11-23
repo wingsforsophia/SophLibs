@@ -21,7 +21,7 @@ Follow the prompts and have fun.
 
 ![First wireframe](https://imgur.com/YYxd04y.png)
 ![Second wireframe](https://imgur.com/OnNQ4RL.png)
-
+![Third wireframe](https://imgur.com/MwIFAFn.png)
 
 ## Pseudocode
 
@@ -75,7 +75,7 @@ Date: Nov. 20, 2020
 #### Sound
 Sound from Zapsplat.com
 
-### Confetti
+#### Confetti
 Author: Steven_Joel
 
 Url: https://forum.webflow.com/t/add-falling-confetti-with-css/103687
