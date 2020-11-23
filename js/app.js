@@ -132,9 +132,9 @@ function renderLib1() {
 
   l1printHere.innerHTML = `${capitalizeFirstLetter(l1properNoun1)}, who has broken more than ${l1number1} Guinness records to promote ${l1fourLetterWord} education, said ${l1identifier1} recent experiences with ${l1bodyPart1}-catching records, including one for using ${l1identifier2} ${l1bodyPart1} to bounce a ${l1sportball1} off a wall, inspired ${l1identifier3} to try to set the record for most ${l1food1} caught in the ${l1bodyPart1} by an individual in ${l1number2} minute(s), self-thrown.`
 
-} //end of renderLib1()
+} 
 
-//begin renderlib2()
+//begin renderlib2()-----------------------------------------
 function renderLib2() {
 
   let l2animal1 = document.getElementById('l2-animal1').value
@@ -165,26 +165,23 @@ function renderLib2() {
   }
   l2confetti.innerHTML = `  
   <div class="container" id="container">
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
- 
-</div>`
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+  </div>`
 
 
   l2printHere.innerHTML = `${capitalizeFirstLetter(l2animal1)} Hollow — a census-designated place near ${uppercase(l2place1)} consisting mainly of a ${l2thing1} store — chooses its ${l2animal2} mayors “based on the candidates’ willingness to have their ${l2bodyPart1} scratched,” according to the community’s website. These ${l2adjective1} public officials promote the town, which is owned by the ${capitalizeFirstLetter(l2animal1)} Hollow Historical Society, and locals can “vote” for candidates every four years by ${l2favoriteThing1}. ${capitalizeFirstLetter(l2name1)}’s campaign for mayor raised $${l2number1} on an online fundraising page.`
-
 }
-// end rednerlib2()
 
-// begin renderlib3()
+// begin renderlib3()-------------------------------------------------------
 
 function renderLib3() {
   let l3adjective1 = document.getElementById('l3-adjective1').value.toLowerCase()
@@ -198,9 +195,7 @@ function renderLib3() {
   let l3confetti = document.getElementById('l3-confetti-here')
 
   forms3.forEach(form => form = form.setAttribute("style", "display: none"))
-
-  
-  //makes each letter of string uppercase----------------------------------
+ 
   function uppercase(str) {
     let array1 = str.split(' ');
     let newarray1 = [];
@@ -212,23 +207,19 @@ function renderLib3() {
 
   l3confetti.innerHTML = `  
   <div class="container" id="container">
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
-  <div class="confetti"></div>
- </div>`
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+   <div class="confetti"></div>
+  </div>`
 
 
   l3printHere.innerHTML = `Thank you very much. This is a very ${l3adjective1} announcement. The biggest ever concerning ${l3thing1} and ${l3thing1} pricing. So today, I have to tell you it’s a great honor for me to announce that my administration is issuing two groundbreaking rules to very dramatically lower the price of prescription ${l3thing1} for the American people. Especially for our ${l3blueCheese1} seniors. We’re pleased to be joined on this occasion by Secretary of ${uppercase(l3chore1)}, ${uppercase(l3name1)}, and Administrator of ${uppercase(l3dislike1)}, ${uppercase(l3name2)}. Thank you both. Thank you both. And thank you all for being here.`
 
-
-
 }
-
-// end renderLib3()

@@ -1,6 +1,6 @@
 # SophLibs
 
-[link to app](https://happy-goldfish.surge.sh)
+[SophLibs](https://happy-goldfish.surge.sh)
 
 ## Wireframes
 
