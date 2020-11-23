@@ -14,7 +14,9 @@ Follow the prompts and have fun.
 
 ## Screenshot
 
-<!-- enter screenshots here -->
+![Welcome page](https://imgur.com/Jf0CfKD.png)
+![Forms page](https://imgur.com/6mUpOM2.png)
+![Render screen](https://imgur.com/4SMLQgi.png)
 
 
 ## Wireframes
