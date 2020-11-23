@@ -124,7 +124,6 @@ select:focus {
   margin: 0 auto;
 }
 
-
  #lib1, #lib2, #lib3 {
   background-image: linear-gradient(to right top, #0c63e5, #0094ff, #00b8f5, #00d5bf, #12eb7d);
   box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);

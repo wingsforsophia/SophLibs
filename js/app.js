@@ -34,7 +34,9 @@ lib1Start.addEventListener('click', () => {
   if (lib1.style.display === "none") {
     lib1.style.display = "block"
     getLib1.style.display = "block"
-    clearLib1.style.display = "block"
+    // clearLib1.display = "block"
+    // clearLib2.display = "none"
+    // clearLib3.display = "none"
     lib2.style.display = "none"
     lib3.style.display = "none"
     getLib2.style.display = "none"
@@ -42,13 +44,17 @@ lib1Start.addEventListener('click', () => {
     chooseLibAbove.style.display = "none"
     welcome.style.display = "none"
   }
+ 
+
 })
 
 lib2Start.addEventListener('click', () => {
   if (lib2.style.display === "none") {
     lib2.style.display = "block"
     getLib2.style.display = "block"
-    clearLib2.style.display = "block"
+    // clearLib2.style.display = "block"
+    // clearLib3.style.display = "none"
+    // clearLib1.style.display = "none"
     lib1.style.display = "none"
     lib3.style.display = "none"
     getLib1.style.display = "none"
@@ -62,7 +68,9 @@ lib3Start.addEventListener('click', () => {
   if (lib3.style.display === "none") {
     lib3.style.display = "block"
     getLib3.style.display = "block"
-    clearLib3.style.display = "block"
+    // clearLib3.style.display = "block"
+    // clearLib2.style.display = "none"
+    // clearLib1.style.display = "none"
     lib1.style.display = "none"
     lib2.style.display = "none"
     getLib2.style.display = "none"
@@ -86,16 +94,16 @@ getLib3.addEventListener('click', () => {
   renderLib3()
 })
 
-clearLib1.addEventListener('click', () => {
-l1Clear()
-})
-clearLib2.addEventListener('click', () => {
-l2Clear()
+// clearLib1.addEventListener('click', () => {
+// l1Clear()
+// })
+// clearLib2.addEventListener('click', () => {
+// l2Clear()
  
-})
-clearLib3.addEventListener('click', () => {
-l3Clear()
-})
+// })
+// clearLib3.addEventListener('click', () => {
+// l3Clear()
+// })
 
 reset.addEventListener('click', () => {
   location = location
@@ -239,84 +247,84 @@ function renderLib3() {
 
 }
 
-function l1Clear() {
-  document.getElementById("l1-properNoun1").value=""
-  document.getElementById("l1-number1").value=""
-  document.getElementById('l1-fourLetterWord').value=""
-  document.getElementById('l1-identifier1').value=""
-  document.getElementById('l1-bodyPart1').value=""
-  document.getElementById('l1-identifier2').value=""
-  document.getElementById('l1-sportball1').value=""
-  document.getElementById('l1-identifier3').value=""
-  document.getElementById('l1-food1').value=""
-  document.getElementById('l1-number2').value=""
-  let l1confetti = document.getElementById('l1-confetti-here')
+// function l1Clear() {
+//   document.getElementById("l1-properNoun1").value=""
+//   document.getElementById("l1-number1").value=""
+//   document.getElementById('l1-fourLetterWord').value=""
+//   document.getElementById('l1-identifier1').value=""
+//   document.getElementById('l1-bodyPart1').value=""
+//   document.getElementById('l1-identifier2').value=""
+//   document.getElementById('l1-sportball1').value=""
+//   document.getElementById('l1-identifier3').value=""
+//   document.getElementById('l1-food1').value=""
+//   document.getElementById('l1-number2').value=""
+//   let l1confetti = document.getElementById('l1-confetti-here')
 
-  forms1.forEach(form => form = form.setAttribute("style", "display: block"))
-
- 
-  l1confetti.innerText = ""
-  l1printHere.innerText = ""
-
-}
-
-function l1Clear() {
-  document.getElementById("l1-properNoun1").value=""
-  document.getElementById("l1-number1").value=""
-  document.getElementById('l1-fourLetterWord').value=""
-  document.getElementById('l1-identifier1').value=""
-  document.getElementById('l1-bodyPart1').value=""
-  document.getElementById('l1-identifier2').value=""
-  document.getElementById('l1-sportball1').value=""
-  document.getElementById('l1-identifier3').value=""
-  document.getElementById('l1-food1').value=""
-  document.getElementById('l1-number2').value=""
-  let l1confetti = document.getElementById('l1-confetti-here')
-
-  forms1.forEach(form => form = form.setAttribute("style", "display: block"))
+//   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
 
  
-  l1confetti.innerText = ""
-  l1printHere.innerText = ""
+//   l1confetti.innerText = ""
+//   l1printHere.innerText = ""
 
-}
-function l2Clear() {
-  document.getElementById('l2-animal1').value=""
-  document.getElementById('l2-place1').value=""
-  document.getElementById('l2-thing1').value=""
-  document.getElementById('l2-animal2').value=""
-  document.getElementById('l2-bodyPart1').value=""
-  document.getElementById('l2-adjective1').value=""
-  document.getElementById('l2-favoriteThing1').value=""
-  document.getElementById('l2-name1').value=""
-  document.getElementById('l2-number1').value=""
+// }
 
-  let l2confetti = document.getElementById('l2-confetti-here')
+// function l1Clear() {
+//   document.getElementById("l1-properNoun1").value=""
+//   document.getElementById("l1-number1").value=""
+//   document.getElementById('l1-fourLetterWord').value=""
+//   document.getElementById('l1-identifier1').value=""
+//   document.getElementById('l1-bodyPart1').value=""
+//   document.getElementById('l1-identifier2').value=""
+//   document.getElementById('l1-sportball1').value=""
+//   document.getElementById('l1-identifier3').value=""
+//   document.getElementById('l1-food1').value=""
+//   document.getElementById('l1-number2').value=""
+//   let l1confetti = document.getElementById('l1-confetti-here')
 
-
-  forms2.forEach(form => form = form.setAttribute("style", "display: block"))
-
- 
-  l2confetti.innerText = ""
-  l2printHere.innerText = ""
-
-}
-
-function l3Clear() {
-  document.getElementById('l3-adjective1').value=""
-  document.getElementById('l3-thing1').value=""
-  document.getElementById('l3-chore1').value=""
-  ocument.getElementById('l3-name1').value=""
-  document.getElementById('l3-dislike1').value=""
-  document.getElementById('l3-blueCheese1').value=""
-  document.getElementById('l3-name2').value=""
-
-  let l3confetti = document.getElementById('l3-confetti-here')
-
-  forms3.forEach(form => form = form.setAttribute("style", "display: block"))
+//   forms1.forEach(form => form = form.setAttribute("style", "display: block"))
 
  
-  l3confetti.innerText = ""
-  l3printHere.innerText = ""
+//   l1confetti.innerText = ""
+//   l1printHere.innerText = ""
 
-}
+// }
+// function l2Clear() {
+//   document.getElementById('l2-animal1').value=""
+//   document.getElementById('l2-place1').value=""
+//   document.getElementById('l2-thing1').value=""
+//   document.getElementById('l2-animal2').value=""
+//   document.getElementById('l2-bodyPart1').value=""
+//   document.getElementById('l2-adjective1').value=""
+//   document.getElementById('l2-favoriteThing1').value=""
+//   document.getElementById('l2-name1').value=""
+//   document.getElementById('l2-number1').value=""
+
+//   let l2confetti = document.getElementById('l2-confetti-here')
+
+
+//   forms2.forEach(form => form = form.setAttribute("style", "display: block"))
+
+ 
+//   l2confetti.innerText = ""
+//   l2printHere.innerText = ""
+
+// }
+
+// function l3Clear() {
+//   document.getElementById('l3-adjective1').value=""
+//   document.getElementById('l3-thing1').value=""
+//   document.getElementById('l3-chore1').value=""
+//   ocument.getElementById('l3-name1').value=""
+//   document.getElementById('l3-dislike1').value=""
+//   document.getElementById('l3-blueCheese1').value=""
+//   document.getElementById('l3-name2').value=""
+
+//   let l3confetti = document.getElementById('l3-confetti-here')
+
+//   forms3.forEach(form => form = form.setAttribute("style", "display: block"))
+
+ 
+//   l3confetti.innerText = ""
+//   l3printHere.innerText = ""
+
+// }
