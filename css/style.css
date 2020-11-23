@@ -117,6 +117,13 @@ select:focus {
   background-image: linear-gradient(to right bottom, #0df32b, #0cd425, #0ab61f, #099919, #077d13);
   box-shadow: 5px 5px 18px 5px rgba(0,0,0,0.54);
 }
+#clearLib1, #clearLib2, #clearLib3 {
+  background-image: linear-gradient(to right top, #d5adec, #c09dce, #a98db2, #937e97, #7c6f7d);
+}
+#l1buttons, #l2buttons, #l3buttons {
+  display: flex;
+}
+
 
 #allLibContent {
   width: 90%;
