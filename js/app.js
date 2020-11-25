@@ -86,13 +86,11 @@ getLib3.addEventListener('click', () => {
   l3printHere.className += 'l3 animate__animated animate__fadeInLeft'
   renderLib3()
 })
-
 clearLib1.addEventListener('click', () => {
   l1Clear()
 })
 clearLib2.addEventListener('click', () => {
   l2Clear()
-
 })
 clearLib3.addEventListener('click', () => {
   l3Clear()
