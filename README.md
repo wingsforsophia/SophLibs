@@ -11,9 +11,9 @@ Just trying to add a little humor to someone's day.
 
 ## Wireframes
 
-![First wireframe](https://imgur.com/YYxd04y.png)
-![Second wireframe](https://imgur.com/OnNQ4RL.png)
-![Third wireframe](https://imgur.com/MwIFAFn.png)
+
+![First wireframe](https://imgur.com/OnNQ4RL.png)
+![Second wireframe](https://imgur.com/MwIFAFn.png)
 
 
 ## Pseudocode
